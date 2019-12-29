@@ -1,0 +1,30 @@
+%%% File: ./inputs/boxes/BOX_MEGUMI_SANO.tex
+
+\begin{center}
+  %%% \begin{tcolorbox}[sharp corners=all,coltitle=black,colbacktitle=white,
+  \begin{tcolorbox}[breakable,sharp corners=all,coltitle=black,colbacktitle=white,
+    width=\textwidth,boxsep=5pt,left=5pt,right=5pt,
+    title={\textbf{Box B: Replaying Experience, Consolidating Memory}}]
+
+    %%% width=\textwidth,boxsep=5pt,left=5pt,right=5pt,hypertarget={box_memories},
+    
+~~~~When we encounter a new experience in the environment, we do not act independently of the past, but rather, our past experiences substantially inform our present decisions. Here, we introduce the basic principles of \textit{hippocampal replay} and a few key ways in which it has motivated reinforcement learning algorithms.
+
+~~~~Replay is the process by which hippocampal representations of previous experiences are sequentially reactivated~\cite{CarretalNATURE-NEUROSCIENCE-11}. Studies show that cells in the rodent hippocampus replay past experiences to stabilize behaviorally relevant memories~\cite{OlafsdottirCURRENT-BIOLOGY-18,JooandFrankNATURE-REVIEWS-NEUROSCIENCE-18}. Though initially observed in spatial tasks, recent work suggests that non-spatial task states are also replayed, and that this phenomenon is common in humans~\cite{SchuckandNivDOI-18}. 
+
+~~~~In the reinforcement learning literature, the \textit{experience replay} algorithm was introduced as an analogical framework in online learning agents~\cite{LinML-92}. Transitions containing state, action, and reward information are sequentially stored in memory and sampled randomly for learning. Randomly replaying old memories not only allows decorrelation of consecutive experiences encountered during data collection, but also enables reuse of training data, increasing sample efficiency, and encourages resampling of rare experiences, potentially alleviating forgetting. 
+
+~~~~A relatively well-studied question is \textit{what to replay}. Some studies suggest the correlation of replay frequency with \textit{novelty} approximated by temporal difference (TD) error~\cite{FosterandWilsonNATURE-06}, and others with high \textit{reward}~\cite{OlafsdottirCURRENT-BIOLOGY-18}. In particular, dopaminergic release, which encodes both novelty and reward~\cite{MenegasetalELIFE-17}, enhances {\textit{sharp wave-ripple}} activation \emdash{} the basic unit of replay. Yet other studies show that experiences more \textit{vulnerable to forgetting} are more likely to be replayed~\cite{SchapiroetalNATURE-COMMUNICATIONS-18}. While the exact selection algorithm is unknown, the observed association with novelty inspired the \textit{prioritized experience replay} algorithm which samples experiences with probabilities weighted by their TD errors and is now consistently preferred to the originally proposed uniform sampling variant~\cite{SchauletalCoRR-15}. 
+
+~~~~The significantly less studied question is \textit{what happens during replay}. Besides re-learning of experiences, many neuroscientists support the idea that replay also serves as a substrate for \textit{memory consolidation} \emdash{} the gradual integration of new experiences processed into existing knowledge representations in the neocortex~\cite{WilsonandMcNaughtonSCIENCE-94,McClellandetalPR-95,KarlssonandFrankNATURE-NEUROSCIENCE-09,BendorandWilsonNATURE-NEUROSCIENCE-12,KumaranetalTiCS-16}, as to stabilize memories against interference. The idea is that replaying information stored in memory will encourage synaptic consolidation processes. 
+
+~~~~While we lack a precise understanding of the underlying mechanisms of consolidation in the brain, in our architecture we frame consolidation as the process by which experiences are used to update expert subsystems stored in long-term memory. We propose an adaptive replay algorithm whereby experiences with contexts similar to the current context are replayed and thus preferentially consolidated into long-term storage. Since action selection directly depends on the relevant expert network drawn from long-term memory, we can ensure to maximally update the currently relevant expert network with existing memories related to its corresponding context. This algorithm is partly inspired by the result by~\cite{JooandFrankNATURE-REVIEWS-NEUROSCIENCE-18} whereby they observed that when a rat pauses at a branching point in a maze, it replays representations of trajectories in the past with similar context to drive its present decision-making. 
+
+~~~~There exist many other cognitively inspired variants of experience replay. One example is {\textit{hindsight experience replay}}~\cite{AndrychowiczetalCoRR-17}, where the agent pretends that whatever state it reaches had been the goal state from the start and learns from the experience regardless of whether it actually succeeded, just as humans can learn from undesirable outcomes. 
+
+% Replay allows access to episodes stored in the hippocampus to be maintained, by keeping them in appropriate register with changing neocortical representations. (Kali and Dayan et al.)
+
+% ~~~~While a simple prioritization mechanism such as TD-error is straightforward to implement and easy to test, the question of may be straightforward to implement, one could imagine more complicated prioritization mechanisms that require an external learned module to assign a prioritization value to each experience.
+
+  \end{tcolorbox}
+\end{center}

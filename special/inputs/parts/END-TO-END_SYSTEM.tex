@@ -1,0 +1,34 @@
+%%% File: ./inputs/parts/END-TO-END_SYSTEM.tex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN PROGRAMMING MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% A paragraph about how the case study of programmer's apprentice + IBP ties 
+%%% together hippocampal memory formation, replay memory consolidation and PFC 
+%%% executive function could be a great way to end this section. - Gene Lewis
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The subsections that comprise this section of the paper very roughly account for the functional systems of the human brain. Admittedly perception is given short shrift and the systems that deal with emotion and motivation are hardly mentioned at all, the former to save space and the latter because it isn't particularly relevant.
+
+In addition, there was no effort made to map the artificial neural networks described in this section onto the biological subsystems discussed in Section~\ref{section_neuroscience}. The goal was to demonstrate how one might build systems that exhibit some desirable cognitive characteristics of human intelligence by leveraging ideas from neuroscience.
+
+The PBWM ({\it{prefrontal cortex, basal ganglia, working memory}}) model described in~\cite{OReillyandFrankNC-06,HazyetalPTRS-07} covers territory that we only sample from, but the PBWM was developed to explain the function of biological brains, not selectively borrow ideas to extend the capabilities of artificial neural networks.
+
+In a complete end-to-end architecture implementing the programmer's apprentice, the three subsystems described in this subsection would have to be integrated into different parts of the action selection and executive control systems: 
+%
+\begin{itemize}
+%
+%%% Figure 10: We use pointers to represent programs as abstract syntax trees ...
+\item The system in Figure~{\urlh{#fig_Differentiable_Structured_Programs}{\ref{fig_programs}}} illustrates a differentiable procedural abstraction rich enough to support structured programming in a connectionist setting using standard embedding techniques and memory networks~\cite{WestonetalCoRR-14,DanihelkaetalCoRR-16,GravesetalCoRR-14,GravesetalNATURE-16}.
+%
+%%% Figure 11:This slide illustrates how we make use of input / output pairs as ...
+\item The system in Figure~{\urlh{#fig_Differentiable_Program_Emulation}{\ref{fig_emulator}}} provides a sketch of how one might train a language model to predict the next statement in a program under construction using input / output pairs or other program invariants to constrain search~\cite{WangetalCoRR-18,WangetalCoRR-17,SinghandKohliSNAPL-17,DevlinetalICML-17}.
+%
+%%% Figure 12: The above graphic illustrates adapting imagination-based planning ...
+\item The system in Figure~{\urlh{#Graph_Nets_Imagination_Coding}{\ref{fig_imagine}}} shows how a variation of imagination-based planning might be used to train a network to predict the next program state using the embodied integrated development environment as a source of ground truth~\cite{WeberetalCoRR-17,PascanuetalCoRR-17,HamricketalCoRR-17}.
+%
+\end{itemize}
+
+Exactly how and where these components might be integrated into the overall architecture is beyond the scope of this paper, but research on the neural correlates of mathematical reasoning may provide some useful clues where to start~\cite{DehaeneetalCOGNITIVE-NEUROPSYCHOLOGY-03,DehaeneandBrannon2011mathminds,AmalricandDehaenePNAS-16}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END PROGRAMMING MODEL %%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,107 @@
+%%% File: ./inputs/CONCLUSIONS.tex
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Training the models described in this paper is a daunting challenge, especially when you consider that current deep neural network technologies rely heavily on large amounts of labeled data and applications like the programmer's apprentice are particularly vulnerable to catastrophic forgetting. We believe training will require radically new approaches and that cognitive and developmental neuroscience have much to offer in terms of insights drawn from the study of how humans learn. 
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Child Development}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+The human brain is organized as a 3-D structure in which specific cell types are positioned in a radial, laminar and areal arrangement that depends on the production, specialization and directed migration of cells from their origin in the embryo to their final destination~\cite{RakiketalTCN-09}. It is only on arriving at their final location that they establish connections to other cells. Postnatally laminar and areal differentiation exhibit substantial differences between early (2-3 months) and late (7-12 months) infancy~\cite{MolnaretalJoA-19,KostovicandJudasTCN-09}. Functional organization begins early (2-3 months) even as construction continues and the shaping of cortical circuits reflects the consequences of increasingly complex behavior. 
+
+All of this carefully orchestrated activity is critical to development. Early brain structures appear as a consequence of the simple reflexive behaviors the infant engages in, laying the foundation for more coordinated behavior depending on increasingly complex internal representations. The infant's ability to engage its environment broadens, exposing it to more complicated stimuli and the opportunity to experiment with new behaviors. The physical and social environment seem to conspire to ensure that the growing infant and then adolescent has the necessary physical and intellectual prerequisites in place when exposed to circumstances that require them. It may be that we will find it useful to recapitulate some version of these developmental strategies for training architectures patterned after the human brain.
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Inductive Bias}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+Most AI systems are trained assuming what is essentially a blank slate in the form of random weights and objective functions that do little to influence the specific content of what is actually learned\footnote{%
+%
+  There are exceptions. For example, Ullman~\etal~\cite{UllmanetalPNAS-12} suggest a collection of innate biases that enable the infant visual system to learn to detect human hands by appearance and by context, as well as direction of gaze, in complex natural scenes; Raposo~\etal~\cite{RaposoetalCSC-17} develop models that learn the relational structure of objects and their various arrangements; and Battaglia~\etal~\cite{BattagliaetalCoRR-18} explore the idea of how introducing a relational inductive bias can expedite learning about entities, relations and the rules for their composition.}.
+%
+In contrast, babies are born with an innate understanding of how objects move around and interact with one another~\cite{Dehaene-LambertzandSpelkeNEURON-15}. Before they can even crawl about on their own, they appear to have an intuitive understanding of how space, time and number are interrelated~\cite{deHeviaetalPNAS-14,HauserandSpelkeTCN-04}. 
+%
+The bodies, neural architectures, physical and social environments of mammals provide a strong inductive bias in shaping their brains. Prolonged development plays a particularly important role in humans. Most mammals can stand and move about within hours of being born. Many human babies don't walk until just under one year. However, human infants learn a great deal during this early preperambulatory developmental period, much of it in preparation for subsequent stages of development~\cite{MacLeanPNAS-16,RosatietalEVOLUTIONARY-PSYCHOLOGY-14}.
+
+%%% We need a strong inductive bias to guide development for two reasons. First of all, it would be difficult if not impossible to genetically encode what a child learns during its lengthy development. And second, even if we could encode the necessary genetic blueprint, it would be hard to select a single model that could accommodate the wide diversity in environmental conditions we might be born into. And so it seems reasonable that natural selection would stumble on a compact general inductive bias enabling us to quickly acquire the basic skills we need to survive while retaining sufficient neural plasticity so we can adapt to changes during our lifetimes. The schedule of developmental milestones are highly conserved within our species and punctuated by profound changes in the architecture of the brain.
+
+It would be difficult if not impossible to genetically encode what a child learns during its lengthy development. And so it seems plausible that evolution would select for a compact general inductive bias enabling us to quickly acquire the basic skills we need to survive while retaining sufficient neural plasticity so that we can adapt to changes during our lifetimes. The schedule of developmental milestones necessary to learn these skills is highly conserved within our species and punctuated by profound changes in the architecture of the brain.
+
+At birth, the architectural foundations are in place to construct the adult brain. For each subsequent developmental milestone, our genes turn on the specific cellular machinery necessary to construct scaffolding, guide neurons of the right cell types to their terminal locations, extend axonal and dendritic processes, eliminate unnecessary neurons and establish new or prune existing synaptic connections. The innate inductive bias and training curriculum implicit in development influence two critical factors that determine human intelligence: First, they serve to initialize the mapping from body to latent state representations throughout the cortex thereby grounding experience in the physical environment. Second, they utilize this grounding as the basis for all subsequent understanding, concrete and abstract. 
+
+This basis provides a template or prototype\footnote{%
+%
+  Prototype theory is a mode of graded categorization in cognitive science, where some members of a category are more central than others. For example, when asked to give an example of the concept furniture, chair is more frequently cited than, say, stool. Prototype theory has also been applied in linguistics, as part of the mapping from phonological structure to semantics. ({\urlh{https://en.wikipedia.org/wiki/Prototype_theory}{SOURCE}})}
+%
+for representing new concepts, whether they be predictive models that allow us to interact with complex dynamical systems or composite categorical representations that enable us to recognize, contrast and compare instances of a particular class of entities~\cite{RoschNATURAL-CATEGORIES-95,RoschNATURAL-CATEGORIES-91,VarelaThompsonRoschTHE_EMBODIED_MIND-91}. 
+%
+In designing architectures to accommodate learning such representations, recent work on learning relational models that characterize different classes of entities, the relationships they participate in and the rules employed in composing them to form new relationships seems particularly promising~\cite{SanchezetalCoRR-18,HamricketalCoRR-18,SantoroetalNIPS-17,BattagliaetalNIPS-16}. This core competency should also serve as the starting point for reasoning about all sorts of abstract entities including computer programs and mathematical objects\footnote{%
+%
+  Learning entities, relations and their compositions may seem like it would require exotic new architectures, but the work of Hubel and Wiesel~\cite{HubelandWieselJoP-62,HubelandWieselJoP-61} published nearly sixty years ago that inspired Fukushima~\cite{FukushimaBC-80}, LeCun~\etal{}~\cite{LecunetalIEEE-98} and Riesenhuber and Poggio~\cite{RiesenhuberandPoggioNN-99} among many others is relevant to much more than extracting features from images.\\
+  Convolutional neural networks are common in many applications areas including natural language processing~\cite{KimEMNLP-14}, medical data analysis~\cite{Luetal2017medical}, extreme weather condition prediction~\cite{LiuetalCoRR-16}, time series prediction for speech modeling~\cite{vandenOordCoRR-16} to name but a few. Many of these applications combine CNN and RNN technologies using CNN components to model coarse-grained local features generated and RNN models to account for long-distance dependencies~\cite{WangetalCOLING-16}.\\
+  Convolutional layers in a multilayer stack employing a sparsity-inducing energy function essentially segment their input providing a basis for entity recognition. Subsequent pooling layers serve to identify correlations evident in earlier layers and thereby identify candidates for relationships, potentially including pairwise and higher-order relationships in a deep enough stack~\cite{SantoroetalNIPS-17}. In addition to Hubel and Wiesel, this technology owes a debt to Barlow~\cite{BarlowNC-89,Barlow61}, Rao and Ballard~\cite{RaoandBallardNATURE-NEUROSCIENCE-99} for foundational biologically-inspired work on sparse and predictive coding~\cite{ChalketalPNAS-18}.}.
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Natural Language}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The use of language and, more generally, symbolic reasoning is an important if not defining characteristic of human intelligence. Some cognitive scientists, including such outspoken proponents as Jerry Fodor and Zenon Pylyshyn, view symbolic representations that exhibit combinatorial syntactic and semantic structure as candidates for a language of thought, and view connectionist proposals as lacking these properties and serving primarily as an account of the neural structures in which symbolic representations are implemented~\cite{FodorandPylyshynCOGNITION-88,Fodor84}. O'Reilly~\etal{}~\cite{OReillyetalTACO-14} have attempted to reconcile the symbolic and connectionist views, arguing that the two are complementary and that parts of the brain exhibit properties of both symbolic and connectionist information processing. 
+
+The evolutionary biologist, Terrence Deacon, argues that our use of language is not a direct consequence of natural selection but rather the result of a collective effort involving millions of human beings working over thousands of year to produce an encyclopedic record of human endeavor to pass down to future generations~\cite{Deacon1998symbolic}. It is hard to imagine an effective programmer's apprentice, much less an accomplished software engineer, lacking the ability to communicate in natural language or denied access to the written word. Recent progress in grounding language learning in an agent's experience interacting with a suitably complex environment bodes well for applications like the programmer's apprentice. For these reasons and more, we see the rich complexity of collaborative pair programming as a compelling framework for exploring human-level AI.
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% This effort requires relatively little oversight in large part because information is easily disseminated and reciprocal sharing is mutually beneficial~\cite{Deacon2012incomplete}.
+  
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% {\emdash{}} a textbook example of emergent phenomena\footnote{%
+%%% %
+%%%   In philosophy, systems theory, science, and art, emergence occurs when an entity is observed to have properties its parts do not have on their own. These properties or behaviors emerge only when the parts interact in a wider whole. For example, smooth forward motion emerges when a bicycle and its rider interoperate, but neither part can produce the behavior on their own. Emergence plays a central role in theories of integrative levels and of complex systems. For instance, the phenomenon of life as studied in biology is an emergent property of chemistry, and psychological phenomena emerge from the neurobiological phenomena of living things. ({\urlh{https://en.wikipedia.org/wiki/Emergence}{SOURCE}})}.
+
+%%% \nosir{Long-term potentiation (LTP) strengthens synapses based on recent patterns of activity to produce a long-lasting increase in signal transmission between two neurons. LTP is coupled with long-term depression}\footnote{%
+%%% %
+%%%   In neurophysiology, long-term depression (LTD) is an activity-dependent reduction in the efficacy of neuronal synapses lasting hours or longer following a long patterned stimulus. LTD occurs in many areas of the CNS with varying mechanisms depending upon brain region and developmental progress.
+  
+%%%   As the opposing process to long-term potentiation (LTP), LTD is one of several processes that serves to selectively weaken specific synapses in order to make constructive use of synaptic strengthening caused by LTP. This is necessary because, if allowed to continue increasing in strength, synapses would ultimately reach a ceiling level of efficiency, which would inhibit the encoding of new information. ({\urlh{https://en.wikipedia.org/wiki/Long-term_depression}{SOURCE}})}
+%%% %
+%%% \nosir{(LTD) to normalize activation levels thereby avoiding synapses reaching a ceiling that would inhibit encoding new information}~\cite{Purvesetal2001}. \nosir{As a complement to traditional stochastic gradient descent, it might make sense to use a LTP and LTD together with pruning to reduce noise and reshape activation patterns}. 
+  
+%%% \nosir{So-called silent synapses}\footnote{%
+%%% %
+%%%   In neuroscience, a silent synapse is an excitatory glutamatergic synapse whose postsynaptic membrane contains NMDA-type glutamate receptors but no AMPA-type glutamate receptors. These synapses are named "silent" because normal AMPA receptor-mediated signaling is not present, rendering the synapse inactive under typical conditions. Silent synapses are typically considered to be immature glutamatergic synapses. As the brain matures, the relative number of silent synapses decreases. However, recent research on hippocampal silent synapses shows that while they may indeed be a developmental landmark in the formation of a synapse, that synapses can be "silenced" by activity, even once they have acquired AMPA receptors. Thus, silence may be a state that synapses can visit many times during their lifetimes. ({\urlh{https://en.wikipedia.org/wiki/Silent_synapse}{SOURCE}})}
+%%% %
+%%% \nosir{have the property that they can be rendered inactive by means of receptor-mediated signaling thereby avoiding the degradation of previously learned circuits and conditionally controlling circuit activity}~\cite{KerchnerandNicollNATURE-REVIEWS-NEUROSCIENCE-08}. \nosir{This ability to control activity at the level of synapses suggests a method to avoid inadvertently altering previously trained circuits in the process of training new circuits.}
+   
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% \nosir{Our current understanding of the developing brain suggests the use of multi-stage curriculum strategies}~\cite{GulchereandBengioJMLR-16,BengioetalICML-09,MaoetalICLR-19} \nosir{to train complex systems such as the programmer's apprentice. We also envision exploiting multiple feedback paths at different levels of the coupled sensory-motor hierarchy to learn level-by-level from the bottom up, and starting with many more units corresponding to neurons and weights corresponding to synapses and axons than we expect to need and then pruning in later stages of development}~\cite{BengioetalNIPS-07}.
+
+%%% \nosir{We might implement a form of neural network architecture search}~\cite{ZophandLeICLR-17,ShinetalICLR-18,PhametalCoRR-18,JinetalCoRR-18} \nosir{that mimics early-development cell migration and adult neurogenesis in reshaping existing neural representations to accommodate unexpected pattern density \emdash{} this last an option likely available only in the dentate gyrus of the hippocampal formation}~\cite{AimoneetalNEURON-09,YoonetalICLR-18,SchmidtetalBBB-12}.
+
+%%% \nosir{Develop a model of reinforcement learning that relies on motivation based on a combination of intrinsic and extrinsic rewards}~\cite{KatzandFrostTiN-96,JaderbergetalICLR-17,PashevichetalCoRR-18}. \nosir{Studies}~\cite{LeeandReeveCABN-17,WangetalELIFE-19} \nosir{employing protocols designed to identify markers of intrinsic motivation point to activity in the} {\it{anterior insular cortex}} \nosir{combined with enhanced coupling with somatosensory areas and reduced coupling with the visual sensory areas, related to apprehending one's own and the pain of others}~\cite{BotvinicketalNEUROIMAGE-05}.
+
+%%% \nosir{Schizophrenia patients show deficits in the lateral prefrontal cortex relating to intrinsic motivation. Researchers have compared schizophrenic patients with healthy individuals to identify neural circuits implicated in the loss of intrinsic motivation. These include reduced activity in lateral prefrontal cortex and in particular circuits in the ventromedial prefrontal cortex associated with empathy, motivation and identification rewarding stimuli}~\cite{TakedaetalFiP-18}.
+
+%%% The vmPFC is primarily concerned with inhibition of urges, motivation, identification of rewarding or otherwise significant stimuli, as well as mood and empathy. The LPFC is primarily involved in working memory, reasoning, planning, and active forms of imagination: ({\urlh{https://en.wikipedia.org/wiki/Ventromedial_prefrontal_cortex}{URL}})
+
+%%% The anterior insular cortex "is also involved in certain higher-level functions, such as attention allocation, reward anticipation, decision-making, ethics and morality, impulse control (e.g. performance monitoring and error detection), and emotion"  ({\urlh{https://en.wikipedia.org/wiki/Anterior_cingulate_cortex}{URL}})
+
+%%% Lee and Reeve~\cite{LeeandReeveCABN-17} report "Using event-related functional magnetic resonance imaging, we found that the neural system of intrinsic motivation involves not only AIC activity, but also striatum activity and, further, AIC–striatum functional interactions."
+
+%%% Wang~\etal{}~\cite{WangetalELIFE-19} report "Results showed that interoceptive attention was associated with increased AIC activation, as well as enhanced coupling between the AIC and somatosensory areas along with reduced coupling between the AIC and visual sensory areas."
+
+%%% Jackson~\etal{}~\cite{JacksonetalNEUROPSYCHOLOGIA-06} note that AIC is involved in interoceptive attention towards physiological signals arising from the body and imagining oneself and other in similar painful situations and distinguishing between the two.
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

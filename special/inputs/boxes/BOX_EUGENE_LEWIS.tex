@@ -1,0 +1,24 @@
+%%% File: ./inputs/boxes/BOX_EUGENE_LEWIS.tex
+
+\begin{center}
+  %%% \begin{tcolorbox}[sharp corners=all,coltitle=black,colbacktitle=white,
+  \begin{tcolorbox}[breakable,sharp corners=all,coltitle=black,colbacktitle=white,
+    width=\textwidth,boxsep=5pt,left=5pt,right=5pt,
+    title={\textbf{Box C: Hierarchy, Abstraction and Executive Control}}]
+
+    %%% width=\textwidth,boxsep=5pt,left=5pt,right=5pt,hypertarget={box_abstract},
+    
+~~~~The prefrontal cortex (PFC) is generally considered to be responsible for executive cognitive control and enabling the synthesis of novel behavior. Here, we briefly review prefrontal anatomy, development and physiology, focusing on three key executive cognitive functions: {\it{attentional set}}, {\it{working memory}} and {\it{action selection}}. For each function, we suggest how our current understanding might lead to new architectures and algorithms for AI systems.
+
+~~~~The PFC sits atop a group of hierarchically organized sensory and motor areas in the cortex enforced through reciprocal anatomical connections~\cite{FusterPREFRONTAL-CORTEX-15}. This arrangement, referred to as {\it{Fuster’s hierarchy}}, motivates computational models of the PFC that posit the development of highly abstract representations of the sensorimotor context that can be used understand what we perceive and direct how we act~\cite{BotvinickPTRS_B-07}. In addition to connections between layers, Fuster’s hierarchy stipulates reciprocal connections between sensory and motor areas of cortex at the same level of abstraction within each layer of the hierarchy. This intralayer connectivity between perception and motor suggests that action representations feed back into and enhance perception, a principle codified in the notion of {\it{corollary discharge}}~\cite{mccloskey2011corollary}.
+
+~~~~Beyond the model of network interactions, intralayer connectivity in Fuster's hierarchy suggests that each layer of the hierarchy along with the layers below but excluding those above, forms a self-contained perception-action loop. Evidently the neocortex undergoes a series of developmental stages with the PFC among the last areas to mature~\cite{guillery2005postnatal}. This implies training of a complex agent may need to unfold in a manner akin to greedy layer-wise deep network training~\cite{BengioetalNIPS-07,belilovsky2018greedy}, with developmentally-staged, abstraction-comparable, layer-wise learning of the coupled sensorimotor features.
+
+~~~~{\it{Attentional set}} (ASET) refers to the preparation of downstream perception and motor cortices for expected stimuli or action. ASET is exhibited in {\it{cued-attention tasks}} where, in anticipating a visual stimuli, PFC and V4 will be active before the stimuli is given~\cite{sylvester2009anticipatory}. ASET suggests existing inhibitory attention masks may be augmented with additive excitatory attention, allowing a neural network to reduce bottom-up input needed for neuron stimulation or cause neuron firing in the absence of sensory input altogether. Allowing the controller to generate new patterns via network activation even suggests a new model of imagination, with improvements in both sensory synthesis~\cite{GregoretalCoRR-15} and planning~\cite{PascanuetalCoRR-17}.
+
+~~~~{\it{Working memory}} is the maintenance of recent stimuli for subsequent action planning. Working memory consists of groups of coupled neural circuits in the PFC called {\it{stripes}} that are connected to potential target stimuli in sensory cortex and access controlled by circuits in the basal ganglia. Computational models of working memory~\cite{HazyetalPTRS-07} include implementations similar to the recurrent memory circuit of an LSTM cell~\cite{HochreiterandSchmidhuberNC-97}, more exotic architectures involving stacked LSTMs~\cite{graves2013speech} and multiple memory stripes manipulated by a central controller.
+
+~~~~In {\it{action selection}}, the PFC generates many actions that are approved or denied by the basal ganglia; both basal ganglia and orbitomedial PFC receive dopaminergic afferents originating in midbrain structures, providing a reward signal that reinforces learning~\cite{FusterPREFRONTAL-CORTEX-15}. Computational models of dopaminergic systems~\cite{o2007pvlv} point to an architecture similar to existing actor-critic models~\cite{MnihetalCoRR-16}; a key improvement is the modeling of {\it{reward inhibition}}, whereby learning ceases for repetitive stimuli. Suppression of reward to prevent response overfitting could aid in tackling other problems such as reward hacking~\cite{amodei2016concrete}, catastrophic forgetting, and lifelong learning~\cite{ZhiyuanandBingLML-18}, all challenges in effectively managing the learning process.
+
+  \end{tcolorbox}
+\end{center}

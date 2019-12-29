@@ -1,0 +1,82 @@
+%%% File: ./inputs/ARCHITECTURE.tex
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\section{Architecture}
+\label{section_architecture}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% OReilly~\etal~\cite{OReillyetalCCN-12}
+
+% \begin{quotation}
+% %
+%   In keeping with its application in computer science~\cite{HennessyandPatterson2012}, we use the term {\it{architecture}} here to mean a specification describing how a set of standard components interact to produce a system for performing useful computations\footnote{%
+% %
+%   In computer engineering, {\it{computer architecture}} is a set of rules and methods that describe the functionality, organization, and implementation of computer systems. Computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation. Classical examples of specific computer architectures include John von Neumann's 1945 paper, {\it{First Draft of a Report on the EDVAC}}, which described an organization of logical elements and Alan Turing's more detailed {\it{Proposed Electronic Calculator for the Automatic Computing Engine}}, also 1945 and which cited John von Neumann's paper. ({\urlh{https://en.wikipedia.org/wiki/Computer_architecture}{SOURCE}})\\
+%   There are also {\it{cognitive architectures}} that subscribe to the idea that the brain consists of innate neural structures or {\it{modules}} that have distinct, established, and evolutionarily developed functions. However, different definitions of "module" have been proposed by different authors. Historically, questions regarding the functional architecture of the mind have been divided into two different theories of the nature of the faculties. The first can be characterized as a horizontal view because it refers to mental processes as if they are interactions between faculties such as memory, imagination, judgment, and perception, which are not domain specific. ({\urlh{https://en.wikipedia.org/wiki/Modularity_of_mind}{SOURCE}})\\
+%   The second is characterized as a vertical view because it claims that the mental faculties are differentiated on the basis of domain specificity, are genetically determined, are associated with distinct neurological structures, and are computationally autonomous. Neither of these views is particularly relevant to our situation since the component circuits mentioned here are primarily distinguished on the basis of their different information processing capabilities that are, for the most part, general purpose. Moreover, the approach discussed here relies primarily on neural-network (connectionist) models rather the rule-based (symbolic) methods that have dominated the {\it{modularity of mind}} view~\cite{OReillyetalTACO-14}.}.
+% %
+% We are primarily interested in developing {\it{cognitive architectures}} that borrow inspiration from biological networks and that can be constructed from basic artificial neural network components in widespread use within the machine learning community~\cite{Goodfellowetal2016deep}, including convolutional networks, recurrent neural networks, auto-associative networks, differentiable key-value memory networks~\cite{GravesetalNATURE-16,MilleretalEMNLP-16} and generative adversarial networks~\cite{GoodfellowetalNIPS-14}. 
+% %
+% \end{quotation}
+
+The architecture of the human brain, at any scale you choose to consider, bears little or no resemblance to conventional computer architectures. There is no separate program memory, no centralized processing unit, no highly stable, random-access, non-volatile memory and nothing like the digital level of abstraction that enables software engineers to ignore instabilities in the analog circuits that implement logic gates. Since representations (data) are collocated with the transformations (computations) that operate on them and different parts of the brain perform different computations requiring different types of memory, the human brain has to support multiple memory systems.
+
+Human memory\footnote{%
+%  
+  For students looking for an introduction to memory systems in the brain, you might start with Chapter~24 in~\cite{Bearetal2015} if you own or have access to either the 3rd or 4th edition, or, for a more succinct overview, try Rolls~\cite{RollsARP-01}, Raslau~\etal{}~\cite{RaslauetalAJN-15,RaslauetalAJN-15}, or, most expedient, Wikipedia ({\urlh{https://en.wikipedia.org/wiki/Neuroanatomy_of_memory}{URL}}).} 
+%
+is characterized along several dimensions depending on what sort of information is stored, how it is accessed and how long it remains accessible~\cite{CowanPBR-08}. Short-term, long-term and working memory are differentiated on the basis of access, persistence, volatility and the effort required to maintain. Short term is measured in seconds, long term in days, months or years and working memory is essentially short-term memory that can be maintained (with cognitive effort) indefinitely and manipulated (very roughly) analogous to a register in the ALU of a von Neumann machine~\cite{BaddeleyQJoEP-86}.
+
+Declarative memory is defined by the ability to explicitly (consciously) recollect facts, whereas non-declarative memory is accessed unconsciously or implicitly through performance rather than recollection. Episodic memory is generally considered long-term and declarative, and is further differentiated on the basis of the kinds of relationships it can encode, including spatial, temporal and social~\cite{StachenfeldetalNATURE-17,RueckemannandBuffaloNATURE-2017,KumaranandMaguireJoN-05,NealandEichenbaum1993}. Procedural knowledge, including motor, visuospatial and cognitive skills, is encoded in the cerebellum, the putamen and caudate nucleus of the basal ganglia, the motor cortex, and frontal cortex.
+
+To ground the discussion, we introduce the {\it{programmer's apprentice}} as an example of the sort of digital assistants we envision as an application of the technologies presented in this paper. We consider several core components of the apprentice architecture each of which depends on or implements one or more memory systems. Drawing upon concepts covered earlier, we consider three major elements:
+%
+\begin{enumerate}
+%
+\item the role of the posterior cortex role in supporting declarative knowledge and semantic memory,
+%
+\item the basal ganglia and prefrontal cortex as the basis for motivation and executive function, and
+%
+\item the hippocampal formation\footnote{%
+%
+  The {\urlh{https://en.wikipedia.org/wiki/Hippocampal_formation}{hippocampal formation}} is a compound structure located in the medial temporal cortex that consists of the dentate gyrus, the {\urlh{https://en.wikipedia.org/wiki/Hippocampus}{hippocampus}} proper, subiculum and, depending on whom you consult, presubiculum, parasubiculum and {\urlh{https://en.wikipedia.org/wiki/Entorhinal_cortex}{entorhinal cortex}}.} 
+%
+in supporting episodic memory formation, retrieval and consolidation.
+%
+\end{enumerate}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% EMBODIED COGNITION
+\subsection{Embodied Cognition}
+\label{subsection_embodied_cognition}
+\input{./inputs/parts/EMBODIED_COGNITION.tex}
+
+% CONSCIOUS ATTENTION
+\subsection{Conscious Attention}
+\label{subsection_conscious_attention}
+\input{./inputs/parts/CONSCIOUS_ATTENTION.tex}
+
+% ACTIVITY SELECTION
+\subsection{Action Selection}
+\label{subsection_action_selection}
+\input{./inputs/parts/ACTION_SELECTION.tex}
+
+% EXECUTIVE CONTROL
+\subsection{Executive Control}
+\label{subsection_executive_control}
+\input{./inputs/parts/EXECUTIVE_CONTROL.tex}
+
+% DIGITAL ASSISTANTS
+\subsection{Digital Assistants}
+\label{subsection_digital_assistants}
+\input{./inputs/parts/DIGITAL_ASSISTANTS.tex}
+
+% END-TO-END SYSTEM
+\subsection{End-to-End Systems}
+\label{subsection_end-to-end_system}
+\input{./inputs/parts/END-TO-END_SYSTEM.tex}
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

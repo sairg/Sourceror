@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{1}% 
+\contentsline {section}{\numberline {2}Neuroscience}{1}% 
+\contentsline {subsection}{\numberline {2.1}Connectivity}{2}% 
+\contentsline {subsection}{\numberline {2.2}Reciprocity}{5}% 
+\contentsline {subsection}{\numberline {2.3}Sensorimotor Hierarchy}{6}% 
+\contentsline {subsection}{\numberline {2.4}Basal Ganglia}{8}% 
+\contentsline {subsection}{\numberline {2.5}Hippocampal Complex}{10}% 
+\contentsline {section}{\numberline {3}Architecture}{14}% 
+\contentsline {subsection}{\numberline {3.1}Embodied Cognition}{15}% 
+\contentsline {subsection}{\numberline {3.2}Conscious Attention}{17}% 
+\contentsline {subsection}{\numberline {3.3}Action Selection}{20}% 
+\contentsline {subsection}{\numberline {3.4}Executive Control}{24}% 
+\contentsline {subsection}{\numberline {3.5}Digital Assistants}{27}% 
+\contentsline {subsection}{\numberline {3.6}End-to-End Systems}{31}% 
+\contentsline {section}{\numberline {4}Discussion}{31}% 
+\contentsline {subsection}{\numberline {4.1}Child Development}{31}% 
+\contentsline {subsection}{\numberline {4.2}Inductive Bias}{32}% 
+\contentsline {subsection}{\numberline {4.3}Natural Language}{33}% 

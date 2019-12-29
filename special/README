@@ -1,0 +1,91 @@
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+convert ./pngures/Human_Brain_Atlas_Allen_Institute.png       ./figures/Human_Brain_Atlas_Allen_Institute.jpg     
+convert ./pngures/White_Matter_Tracts_Long_Distance.png       ./figures/White_Matter_Tracts_Long_Distance.jpg     
+convert ./pngures/Brodmann_Basal_Ganglia_Hippocampus.png      ./figures/Brodmann_Basal_Ganglia_Hippocampus.jpg    
+convert ./pngures/Hippocampus_Inspired_Learning_Redux.png     ./figures/Hippocampus_Inspired_Learning_Redux.jpg   
+convert ./pngures/Basal_Ganglia_Anatomy_and_Physiology.png    ./figures/Basal_Ganglia_Anatomy_and_Physiology.jpg  
+convert ./pngures/Global_Workspace_Conscious_Attention.png    ./figures/Global_Workspace_Conscious_Attention.jpg  
+convert ./pngures/Global_Workspace_Episodic_Memory.png        ./figures/Global_Workspace_Episodic_Memory.jpg      
+convert ./pngures/Posterior_Cortex_Semantic_Cloud_Memory.png  ./figures/Posterior_Cortex_Semantic_Cloud_Memory.jpg
+convert ./pngures/Differentiable_Program_Emulation.png        ./figures/Differentiable_Program_Emulation.jpg      
+convert ./pngures/Prefrontal_Hierarchy_Biology_Graze.png      ./figures/Prefrontal_Hierarchy_Biology_Graze.jpg    
+convert ./pngures/Hippocampus_Anatomy_and_Physiology.png      ./figures/Hippocampus_Anatomy_and_Physiology.jpg    
+convert ./pngures/Hippocampus_Auto_Associative_Network.png    ./figures/Hippocampus_Auto_Associative_Network.jpg  
+convert ./pngures/Differentiable_Structured_Programs.png      ./figures/Differentiable_Structured_Programs.jpg    
+convert ./pngures/Graph_Nets_Imagination_Coding.png           ./figures/Graph_Nets_Imagination_Coding.jpg         
+convert ./pngures/Coupled_Sensory_Motor_Hierarchy.png         ./figures/Coupled_Sensory_Motor_Hierarchy.jpg       
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+convert ./figures/Human_Brain_Atlas_Allen_Institute.png       ./special/figures/Human_Brain_Atlas_Allen_Institute.jpg     
+convert ./figures/White_Matter_Tracts_Long_Distance.png       ./special/figures/White_Matter_Tracts_Long_Distance.jpg     
+convert ./figures/Brodmann_Basal_Ganglia_Hippocampus.png      ./special/figures/Brodmann_Basal_Ganglia_Hippocampus.jpg    
+convert ./figures/Hippocampus_Inspired_Learning_Redux.png     ./special/figures/Hippocampus_Inspired_Learning_Redux.jpg   
+convert ./figures/Basal_Ganglia_Anatomy_and_Physiology.png    ./special/figures/Basal_Ganglia_Anatomy_and_Physiology.jpg  
+convert ./figures/Global_Workspace_Conscious_Attention.png    ./special/figures/Global_Workspace_Conscious_Attention.jpg  
+convert ./figures/Global_Workspace_Episodic_Memory.png        ./special/figures/Global_Workspace_Episodic_Memory.jpg      
+convert ./figures/Posterior_Cortex_Semantic_Cloud_Memory.png  ./special/figures/Posterior_Cortex_Semantic_Cloud_Memory.jpg
+convert ./figures/Differentiable_Program_Emulation.png        ./special/figures/Differentiable_Program_Emulation.jpg      
+convert ./figures/Prefrontal_Hierarchy_Biology_Graze.png      ./special/figures/Prefrontal_Hierarchy_Biology_Graze.jpg    
+convert ./figures/Hippocampus_Anatomy_and_Physiology.png      ./special/figures/Hippocampus_Anatomy_and_Physiology.jpg    
+convert ./figures/Hippocampus_Auto_Associative_Network.png    ./special/figures/Hippocampus_Auto_Associative_Network.jpg  
+convert ./figures/Differentiable_Structured_Programs.png      ./special/figures/Differentiable_Structured_Programs.jpg    
+convert ./figures/Graph_Nets_Imagination_Coding.png           ./special/figures/Graph_Nets_Imagination_Coding.jpg         
+convert ./figures/Coupled_Sensory_Motor_Hierarchy.png         ./special/figures/Coupled_Sensory_Motor_Hierarchy.jpg       
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+convert -size 100x100 xc: -density 300 x.jpg
+
+identify -verbose x.jpg
+
+  Resolution: 300x300
+
+convert x.jpg -density 72 y.jpg
+
+identify -verbose y.jpg
+
+  Resolution: 72x72
+
+convert image -density 72 -units pixelsperinch resultimage
+
+convert -units PixelsPerInch image -density 300 resultimage
+
+convert -units PixelsPerInch image -resample 300 resultimage
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Thomas Dean, Brown University, USA
+
+Chaofei Fan, Stanford, USA
+stfan@stanford.edu
+
+Francis E. Lewis, Stanford, USA
+francis.eugene.lewis@gmail.com
+
+Megumi Sano, Stanford, USA
+megsano@stanford.edu
+
+Type A
+
+Specialty Section:
+
+Research Topic article collection name:
+How Can Neuroscience Contribute to the Development of General Artificial Intelligence?
+
+Adam Henry Marblestone
+Harvard University
+Cambridge, United States
+
+Guest Associate Editor
+Frontiers in Computational Neuroscience
+
+Subutai Ahmad
+Numenta Inc.
+Redwood City, United States
+
+Guest Associate Editor
+Frontiers in Computational Neuroscience
+
+
