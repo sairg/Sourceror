@@ -1,0 +1,21 @@
+%%% START C [ 561 words ]
+
+In the 1970's James Albus~\cite{AlbusMB-71}, Masao Ito~\cite{Ecclesetal1967neuronal} and David Marr~\cite{MarrJoP-69} developed a model of the mammalian cerebellum about the same time that David Marr was working on his model. The Marr-Albus-Ito theory {\emdash{}} is still the {\urlh{https://en.wikipedia.org/wiki/Cerebellum#Theories_and_computational_models}{foundation}} on which most theories of the cerebellum are built.
+
+Albus went on to work in applied robotics~\cite{AlbusetalSME-84} and invented a new approach to robotic control~\cite{Albus75} that he christened the {\it{cerebellar model articulation controller}} ({\urlh{https://en.wikipedia.org/wiki/Cerebellar_model_articulation_controller}{CMAC}}) and that is widely used in reinforcement learning for classification and control problems. In context of the discussion here, The CMAC controller essentially works by associating points in control space with assignments to servomotors in joint space in the case of articulated assembly robots.
+
+To recap, in the first stage, the basal ganglia propose a motor program specified as a setpoint offset from a suitably compressed version of the current state vector that you can think of as a goal or intention. In the second stage, circuits in the motor cortex implement a negative feedback controller to drive the system toward the target setpoint. To accomplish the goal of reaching the supplied setpoint, these circuits attempt to trace a path along the configuration manifold representing the set of reachable system states.
+
+%%% define association cortex earlier in the Neuroscience section 
+
+How has neuroscience informed this model of motion planning? [...] (a) activity throughout the association cortex can reconstituted in other locations for processing (b) an approach to variable binding and persistent actively maintained persistent working memory (c) convolutional layers that learn topographically organized feature maps that can be registered with one another and combined to create composite maps that serve as representations for planning (d) an approach to learning mappings from latent states to latent actions to serve decision making [...] namely, Fuster's hierarchy consisting of parallel stacks of levels, each level in each stack a multi-layer network with the motor network reciprocally connected with the corresponding sensory network and the hierarchy trained from bottom (most concrete) to top (most abstract) [...] 
+
+\section{Discussion}
+
+In this paper we set out to illustrate how neuroscience might accelerate progress on some of the most challenging problems facing the field of artificial intelligence. We looked at seemingly hard problems like consciousness that have relatively simple engineering solutions, and seemingly easy problems like motion planning the require the integration of multiple memory and control subsystems.
+
+We didn't discuss in any detail the implementation of the programmer's apprentice, and yet every one of the architectural vignettes that we discussed was instigated by our goal to develop end-to-end solutions for concrete engineering problems like the apprentice. Neither did we address one of the most challenging problems facing AI in the coming decade, namely the problem of training complex of the models we described here.
+
+In terms of training, we believe that research in comparative and developmental cognitive neuroscience will prove invaluable in seeking effective solutions for training the next generation of AI systems that aspire to human-level competence. Perhaps in our next paper we will lay out our plans to train systems like the apprentice that have to collaborate closely with humans in order to solve complex engineering problems. 
+
+%%% Stop C
