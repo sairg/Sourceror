@@ -1,0 +1,25 @@
+%%% File: ./inputs/boxes/BOX_CEREBELLUM.tex
+
+\begin{center}
+  %%% \begin{tcolorbox}[sharp corners=all,coltitle=black,colbacktitle=white,
+  \begin{tcolorbox}[breakable,sharp corners=all,coltitle=black,colbacktitle=white,
+    width=\textwidth,boxsep=5pt,left=5pt,right=5pt,
+    title={\textbf{Box D: }}]
+
+    %%% width=\textwidth,boxsep=5pt,left=5pt,right=5pt,hypertarget={box_cerebellar},
+
+    
+For the past 200 years, the cerebellum had been thought of as a region involved exclusively in motor control. This was due to the fact that most of the commonly observed cerebellar syndromes had to do with symptoms that mainly affected coordination, balance, gait, fine movement control, and low-level speech problems. 
+
+In the early 2010's, many researchers began to shed light on the emerging role of the cerebellum in higher cognitive functions such as intellect, social cognition, and emotion. Specifically, research on cortico-cerebellar processing revealed that the cerebral cortex sends error feedback to the supervised-learning-based cerebellum for cognitive control and automation of cognitive processing such as habitual thoughts and cognitive skills. 
+
+While some researchers argued that there exists a clear dichotomy between parts of the cerebellum responsible for the traditionally accepted sensorimotor functions and parts that manage strictly cognitive functions (also supported by research on the physiology underlying the cerebellar cognitive affective syndrome), others claimed that there is a sensorimotor-to-cognition hierarchical gradient pattern, similar to the one observed in the cerebrum. 
+
+The truth may be a little more complicated. In a recent 2018 Nature paper, Bostan et al. found evidence for a densely interconnected framework between the basal ganglia and the cerebellum at the subcortical level, even though these two subcortical systems were previously thought to be only connected indirectly via the cerebral cortex. Their work suggests that the cerebellar outputs travel through the indirect pathway and through the intralaminar thalamic nuclei to send signals to the basal ganglia, and reward-related signals from basal ganglia tell the cerebellum how it should optimize its parameters for motion control. (This was revealing given the previously popular view that the error signals for the cerebellum come from the cerebral cortex.) 
+
+Moreover, their finding goes beyond just the novel detection of important circuits connecting the basal ganglia and the cerebellum. They also showed that the cerebrum, basal ganglia, and the cerebellum form an integrated network, where topographic shifts in the site of neuronal activations within the network correspond to different functions, such as model-free RL, model-based RL, and motor memory -- each of which corresponds to a distinct set of nodes in the network being activated. 
+
+This drastically challenges the long-established distinction of these three brain regions into unsupervised learning (cerebrum), reinforcement learning (basal ganglia), and supervised learning (cerebellum), as it seems more likely given their finding that all three regions communicate via this dense network to enable various learning strategies, and that differences in the learning strategies are driven mainly by the topographic shifts in the network. Within the network, there is certainly a division of labor; for example, Bostan et al. suggests that the cortico-cerebellar processing evaluates the sensory consequences of an action (there is still feedback from the cerebrum as previously supported), in contrast to cortico-basal ganglia processing which evaluates specifically the value of such consequences.
+
+  \end{tcolorbox}
+\end{center}
