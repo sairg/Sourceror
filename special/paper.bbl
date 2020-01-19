@@ -1,0 +1,875 @@
+\begin{thebibliography}{100}
+
+\bibitem{AimoneetalNEURON-09}
+J.~B. Aimone, J.~Wiles, and F.~H. Gage.
+\newblock Computational influence of adult neurogenesis on memory encoding.
+\newblock {\em Neuron}, 61(2):187--202, 2009.
+
+\bibitem{AimoneetalNEURON-11}
+James~B. Aimone, Wei Deng, and Fred~H. Gage.
+\newblock Resolving new memories: A critical look at the dentate gyrus, adult
+  neurogenesis, and pattern separation.
+\newblock {\em Neuron}, 70(4):589--596, 2011.
+
+\bibitem{AlbusMB-71}
+James~S. Albus.
+\newblock A theory of cerebellar functions.
+\newblock {\em Mathematical Biology}, 10:25--61, 1971.
+
+\bibitem{Albus75}
+James~S. Albus.
+\newblock A new approach to manipulator control: The cerebellar model
+  articulation controller (cmac).
+\newblock {\em Journal of Dynamic Systems, Measurement, and Control},
+  97:270--277, 1975.
+
+\bibitem{AlbusetalSME-84}
+James~S. Albus, Anthony~J. Barbera, and M.~L. Fitzgerald.
+\newblock A control system for an automated manufacturing research facility.
+\newblock In {\em Proceedings of Robots 8}, pages 13--28--13--34. Robotics
+  International of SME, 1984.
+
+\bibitem{AndreasetalICML-17}
+Jacob Andreas, Dan Klein, and Sergey Levine.
+\newblock Modular multitask reinforcement learning with policy sketches.
+\newblock {\em CoRR}, arXiv:1611.01796, 2016.
+
+\bibitem{AndrychowiczetalCoRR-17}
+Marcin Andrychowicz, Filip Wolski, Alex Ray, Jonas Schneider, Rachel Fong,
+  Peter Welinder, Bob McGrew, Josh Tobin, Pieter Abbeel, and Wojciech Zaremba.
+\newblock Hindsight experience replay.
+\newblock {\em CoRR}, arXiv:1707.01495, 2017.
+
+\bibitem{AnsetalCSS-02}
+Bernard Ans, St\`{e}phane Rousset, Robert French, and Serban Musca.
+\newblock Preventing catastrophic interference in multiple-sequence learning
+  using coupled reverberating elman networks.
+\newblock {\em Proceedings of the 24th Annual Meeting of the Cognitive Science
+  Society}, 2002.
+
+\bibitem{ArdeschetalPNAS-19}
+Dirk~Jan Ardesch, Lianne~H. Scholtens, Longchuan Li, Todd~M. Preuss, James~K.
+  Rilling, and Martijn~P. van~den Heuvel.
+\newblock Evolutionary expansion of connectivity between multimodal association
+  areas in the human brain compared with chimpanzees.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(14):7101--7106, 2019.
+
+\bibitem{Arenkiel2014neural}
+B.R. Arenkiel.
+\newblock {\em Neural Tracing Methods: Tracing Neurons and Their Connections}.
+\newblock Springer New York, 2014.
+
+\bibitem{Ashby1957cybernetics}
+W.~Ross Ashby.
+\newblock {\em An introduction to cybernetics}.
+\newblock University paperbacks. Methuen, 1964.
+
+\bibitem{Baars1988}
+B.~J. Baars.
+\newblock {\em A cognitive theory of consciousness}.
+\newblock Cambridge University Press, New York, NY, 1988.
+
+\bibitem{BaddeleyQJoEP-86}
+Alan Baddeley.
+\newblock Modularity, mass-action and memory.
+\newblock {\em The Quarterly Journal of Experimental Psychology Section A},
+  38(4):527--533, 1986.
+
+\bibitem{BadreandWagnerNEURON-04}
+D.~Badre and A.~D. Wagner.
+\newblock Selection, integration, and conflict monitoring; assessing the nature
+  and generality of prefrontal cognitive control mechanisms.
+\newblock {\em Neuron}, 41(3):473--487, 2004.
+
+\bibitem{BadreTiCS-08}
+David Badre.
+\newblock Cognitive control, hierarchy, and the rostro–caudal organization of
+  the frontal lobes.
+\newblock {\em Trends in Cognitive Sciences}, 12(5):193--200, 2008.
+
+\bibitem{BakkerandSchmidhuberIAS-04}
+Bram Bakker and J\"{u}rgen Schmidhuber.
+\newblock Hierarchical reinforcement learning based on subgoal discovery and
+  subpolicy specialization.
+\newblock In {\em Proceedings of the 8th Conference on Intelligent Autonomous
+  Systems}, pages 438--445, 2004.
+
+\bibitem{BarbasandGarcia-CabezasCOiN-16}
+H.~Barbas and M.~A. Garcia-Cabezas.
+\newblock {{H}ow the prefrontal executive got its stripes}.
+\newblock {\em Current Opinion in Neurobiology}, 40:125--134, 2016.
+
+\bibitem{BarlowNC-89}
+Horace~B. Barlow.
+\newblock Unsupervised learning.
+\newblock {\em Neural Computation}, 1:295--311, 1989.
+
+\bibitem{BeckerHIPPOCAMPUS-05}
+S.~Becker.
+\newblock A computational principle for hippocampal learning and neurogenesis.
+\newblock {\em Hippocampus}, 15(6):722--738, 2005.
+
+\bibitem{BendorandWilsonNATURE-NEUROSCIENCE-12}
+Daniel Bendor and Matthew~A Wilson.
+\newblock Biasing the content of hippocampal replay during sleep.
+\newblock {\em Nature neuroscience}, 15(10):1439, 2012.
+
+\bibitem{BengioetalCoRR-15}
+Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer.
+\newblock Scheduled sampling for sequence prediction with recurrent neural
+  networks.
+\newblock {\em CoRR}, arXiv:1506.03099, 2015.
+
+\bibitem{BengioCoRR-17}
+Yoshua Bengio.
+\newblock The consciousness prior.
+\newblock {\em CoRR}, arXiv:1709.08568, 2017.
+
+\bibitem{BengioetalNIPS-07}
+Yoshua Bengio, Pascal Lamblin, Dan Popovici, and Hugo Larochelle.
+\newblock Greedy layer-wise training of deep networks.
+\newblock In {\em Advances in Neural Information Processing Systems 19}, pages
+  153--160. MIT Press, Cambridge, MA, 2007.
+
+\bibitem{BengioetalICML-09}
+Yoshua Bengio, J{\'e}r\^{o}me Louradour, Ronan Collobert, and Jason Weston.
+\newblock Curriculum learning.
+\newblock In {\em Proceedings of the 26th Annual International Conference on
+  Machine Learning}, pages 41--48, New York, NY, USA, 2009. ACM.
+
+\bibitem{BinderandDesaiTiCS-11}
+J.~R. Binder and R.~H. Desai.
+\newblock The neurobiology of semantic memory.
+\newblock {\em Trends in Cognitive Science}, 15(11):527--536, 2011.
+
+\bibitem{BotvinickandAnANIPS-09}
+Matthew Botvinick and James An.
+\newblock Goal-directed decision making in prefrontal cortex: A computational
+  framework.
+\newblock {\em Advances in Neural Information Processing Systems}, 21:169--176,
+  2009.
+
+\bibitem{BotvinickPTRS_B-07}
+Matthew~M. Botvinick.
+\newblock Multilevel structure in behaviour and in the brain: a model of
+  fuster's hierarchy.
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 362:1615--1626, 2007.
+
+\bibitem{BoydenBIOLOGY-11}
+Edward Boyden.
+\newblock A history of optogenetics: the development of tools for controlling
+  brain circuits with light.
+\newblock {\em F1000 Biology Reports}, 3, 2011.
+
+\bibitem{BridgeandClarePTRS-B-06}
+Holly Bridge and Stuart Clare.
+\newblock High-resolution {MRI}: {\em{in vivo}} histology?
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 361:137--146, 2006.
+
+\bibitem{Brodmann1909}
+Korbinian Brodmann.
+\newblock {\em {Vergleichende Lokalisationslehre der Grosshirnrinde in ihren
+  Prinzipien dargestellt auf Grund des Zellenbaues}}.
+\newblock Johann Ambrosius Barth Verlag, Leipzig, 1909.
+
+\bibitem{BuxtonetalNEUROIMAGING-04}
+R.B. Buxton, K.~Uludag, D.J. Dubowitz, and T.T. Liu.
+\newblock Modeling the hemodynamic response to brain activation.
+\newblock {\em Neuroimaging}, 23:220--233, 2004.
+
+\bibitem{CallawayCURRENT-OPINION-08}
+Edward~M. Callaway.
+\newblock Transneuronal circuit tracing with neurotropic viruses.
+\newblock {\em Current opinion in neurobiology}, 18:617--623, 2008.
+
+\bibitem{CarretalNATURE-NEUROSCIENCE-11}
+Margaret~F Carr, Shantanu~P Jadhav, and Loren~M Frank.
+\newblock Hippocampal replay in the awake state: a potential substrate for
+  memory consolidation and retrieval.
+\newblock {\em Nature neuroscience}, 14(2):147, 2011.
+
+\bibitem{ChenetalNEURON-18}
+X.~Chen, Y.~Mu, Y.~Hu, A.~T. Kuan, M.~Nikitchenko, O.~Randlett, A.~B. Chen,
+  J.~P. Gavornik, H.~Sompolinsky, F.~Engert, and M.~B. Ahrens.
+\newblock {Brain-wide Organization of Neuronal Activity and Convergent
+  Sensorimotor Transformations in Larval Zebrafish}.
+\newblock {\em Neuron}, 100(4):876--890, 2018.
+
+\bibitem{ZhiyuanandBingLML-18}
+Zhiyuan Chen and Bing Liu.
+\newblock Continual learning and catastrophic forgetting.
+\newblock In {\em Lifelong Machine Learning, Second Edition}, volume~12 of {\em
+  Synthesis Lectures on Artificial Intelligence and Machine Learning}, pages
+  1--207. Morgan \& Claypool Publishers, 2018.
+
+\bibitem{ChicaetalBSF-18}
+Ana~B. Chica, Michel Thiebaut~de Schotten, Paolo Bartolomeo, and Pedro~M.
+  Paz-Alonso.
+\newblock White matter microstructure of attentional networks predicts
+  attention and consciousness functional interactions.
+\newblock {\em Brain Structure and Function}, 223(2):653--668, 2018.
+
+\bibitem{NealandEichenbaum1993}
+Neal~J. Cohen and Howard Eichenbaum.
+\newblock {\em Memory, amnesia, and the hippocampal system.}
+\newblock The MIT Press, Cambridge, MA, US, 1993.
+
+\bibitem{CourtneyCABN-04}
+S.~M. Courtney.
+\newblock Attention and cognitive control as emergent properties of information
+  representation in working memory.
+\newblock {\em Cognitive, Affective and Behavioral Neuroscience},
+  4(4):501--516, 2004.
+
+\bibitem{CowanPBR-08}
+Nelson Cowan.
+\newblock What are the differences between long-term, short-term, and working
+  memory?
+\newblock {\em Progress in Brain Research}, 169:323--338, 2008.
+
+\bibitem{Dehaene2014}
+Stanislas Dehaene.
+\newblock {\em Consciousness and the Brain: Deciphering How the Brain Codes Our
+  Thoughts}.
+\newblock Viking Press, 2014.
+
+\bibitem{DEspositoetalNATURE-95}
+M.~D'Esposito, J.~A. Detre, D.~C. Alsop, R.~K. Shin, S.~Atlas, and M.~Grossman.
+\newblock The neural basis of the central executive system of working memory.
+\newblock {\em Nature}, 378(6554):279--281, 1995.
+
+\bibitem{DietterichJAIR-00}
+Thomas~G. Dietterich.
+\newblock Hierarchical reinforcement learning with the {MAXQ} value function
+  decomposition.
+\newblock {\em Journal of Artificial Intelligence Research}, 13:227--303, 2000.
+
+\bibitem{DiuketalCRMHOB-13}
+C.~Diuk, A.~Schapiro, N.~C\'{o}rdova, J.~Ribas-Fernandes, Y.~Niv, and
+  M.~Botvinick.
+\newblock Divide and conquer: hierarchical reinforcement learning and task
+  decomposition in humans.
+\newblock In {\em Computational and robotic models of the hierarchical
+  organization of behavior}, pages 271--291, Berlin, Heidelberg, 2013.
+  Springer.
+
+\bibitem{DombeckandTankCSH-11}
+Daniel Dombeck and David Tank.
+\newblock Imaging in neuroscience.
+\newblock In Helmchen and Konnerth, editors, {\em Two-Photon Imaging of Neural
+  Activity in Awake Mobile Mice}, pages 355--369. Cold Spring Harbor Press,
+  2011.
+
+\bibitem{DouglasandMartinCURRENT-BIOLOGY-12}
+Rodney~J. Douglas and Kevan~A.C. Martin.
+\newblock Behavioral architecture of the cortical sheet.
+\newblock {\em Current Biology}, 22(24):R1033--R1038, 2012.
+
+\bibitem{DrewetalLEARNING-MEMORY-13}
+L.~J. Drew, S.~Fusi, and R.~Hen.
+\newblock Adult neurogenesis in the mammalian hippocampus: {W}hy the dentate
+  gyrus?
+\newblock {\em Learning and Memory}, 20(12):710--729, 2013.
+
+\bibitem{Ecclesetal1967neuronal}
+J.C. Eccles, M.~Ito, and J.~Szent\'{a}gothai.
+\newblock {\em The Cerebellum as a Neuronal Machine}.
+\newblock Springer-Verlag, Berlin, 1967.
+
+\bibitem{FosterandWilsonNATURE-06}
+David~J Foster and Matthew~A Wilson.
+\newblock Reverse replay of behavioural sequences in hippocampal place cells
+  during the awake state.
+\newblock {\em Nature}, 440(7084):680, 2006.
+
+\bibitem{FrankandBadreCEREBRAL-CORTEX-12}
+M.~J. Frank and D.~Badre.
+\newblock Mechanisms of hierarchical reinforcement learning in corticostriatal
+  circuits {I}: computational analysis.
+\newblock {\em Cerebral Cortex}, 22(3):509--526, 2012.
+
+\bibitem{FrenchTiCS-99}
+Robert French.
+\newblock Catastrophic forgetting in connectionist networks.
+\newblock {\em Trends in Cognitive Sciences}, 3:128--135, 1999.
+
+\bibitem{FrenchCONNECTION-SCIENCE-97}
+Robert~M. French.
+\newblock Pseudo-recurrent connectionist networks: An approach to the
+  'sensitivity-stability' dilemma.
+\newblock {\em Connection Science}, 9(4):353--380, 1997.
+
+\bibitem{FukushimaBC-80}
+K.~Fukushima.
+\newblock Neocognitron: {A} self organizing neural network model for a
+  mechanism of pattern recognition unaffected by shift in position.
+\newblock {\em Biological Cybernnetics}, 36:93--202, 1980.
+
+\bibitem{FusterPREFRONTAL-CORTEX-15-CHAPTER_8}
+Joaqu\'{i}n~M. Fuster.
+\newblock {\em {Chapter 8: An Overview of Prefrontal Functions}}, pages
+  375--425.
+\newblock Elsevier, London, 2015.
+
+\bibitem{FusterPREFRONTAL-CORTEX-15}
+Joaqu\'{i}n~M. Fuster.
+\newblock {\em {Prefrontal Cortex, 5th Edition}}.
+\newblock Elsevier, London, 2015.
+
+\bibitem{GeetalNATURE-06}
+S.~Ge, E.~L. Goh, K.~A. Sailor, Y.~Kitabatake, G.~L. Ming, and H.~Song.
+\newblock {GABA} regulates synaptic integration of newly generated neurons in
+  the adult brain.
+\newblock {\em Nature}, 439(7076):589--593, 2006.
+
+\bibitem{GershmanandDawANNUAL-REVIEWS-17}
+Samuel~J. Gershman and Nathaniel~D. Daw.
+\newblock Reinforcement learning and episodic memory in humans and animals:
+  {A}n integrative framework.
+\newblock {\em Annual Reviews of Psychology}, 68:101–128, 2017.
+
+\bibitem{GibsonPERCEPTION-50}
+James~J. Gibson.
+\newblock {\em Perception of the Visual World}.
+\newblock Houghton Mifflin, Boston, 1950.
+
+\bibitem{GoenseetalFiCN-16}
+Jozien Glense, Yvette Bohraus, and Nikos~K. Logothetis.
+\newblock {fMRI} at high spatial resolution: Implications for {BOLD}-models.
+\newblock {\em Frontiers in computational neuroscience}, 10:66--66, 2016.
+
+\bibitem{GloverPMC-11}
+Gary~H. Glover.
+\newblock Overview of functional magnetic resonance imaging.
+\newblock {\em Neurosurgery clinics of North America}, 22:133--144, 2011.
+
+\bibitem{Goldman-RakicARN-88}
+Patricia~S. Goldman-Rakic.
+\newblock Topography of cognition: Parallel distributed networks in primate
+  association cortex.
+\newblock {\em Annual Review of Neuroscience}, 11(1):137--156, 1988.
+
+\bibitem{Gomez-RoblesetalPNAS-15}
+Aida G{\'o}mez-Robles, William~D. Hopkins, Steven~J. Schapiro, and Chet~C.
+  Sherwood.
+\newblock Relaxed genetic control of cortical organization in human brains
+  compared with chimpanzees.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  112(48):14799--14804, 2015.
+
+\bibitem{GravesetalNATURE-16}
+Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka
+  Grabska-Barwi\'{n}ska, Sergio~G\'{o}mez Colmenarejo, Edward Grefenstette,
+  Tiago Ramalho, John Agapiou, Adri\`{a}~Puigdom\'{e}nech Badia, Karl~Moritz
+  Hermann, Yori Zwols, Georg Ostrovski, Adam Cain, Helen King, Christopher
+  Summerfield, Phil Blunsom, Koray Kavukcuoglu, and Demis Hassabis.
+\newblock Hybrid computing using a neural network with dynamic external memory.
+\newblock {\em Nature}, 538:471--476, 2016.
+
+\bibitem{GregoretalCoRR-15}
+Karol Gregor, Ivo Danihelka, Alex Graves, and Daan Wierstra.
+\newblock {DRAW}: A recurrent neural network for image generation.
+\newblock {\em CoRR}, arXiv:1502.04623, 2015.
+
+\bibitem{GulcehreetalCoRR-16}
+Caglar G\"{u}lcehre, Marcin Moczulski, Francesco Visin, and Yoshua Bengio.
+\newblock Mollifying networks.
+\newblock {\em CoRR}, arXiv:1608.04980, 2016.
+
+\bibitem{HanetalNATURE-18}
+Yunyun Han, Justus~M. Kebschull, Robert A.~A. Campbell, Devon Cowan, Fabia
+  Imhof, Anthony~M. Zador, and Thomas~D. Mrsic-Flogel.
+\newblock The logic of single-cell projections from visual cortex.
+\newblock {\em Nature}, 556:51--56, 2018.
+
+\bibitem{HawrylyczetalNATURE-NEUROSCIENCE-15}
+Michael Hawrylycz, Jeremy~A. Miller, Vilas Menon, David Feng, Tim Dolbeare,
+  Angela~L. Guillozet-Bongaarts, Anil~G. Jegga, Bruce~J. Aronow, Chang-Kyu Lee,
+  Amy Bernard, Matthew~F. Glasser, Donna~L. Dierker, J\"{o}rg Menche, Aaron
+  Szafer, Forrest Collman, Pascal Grange, Kenneth~A. Berman, Stefan Mihalas,
+  Zizhen Yao, Lance Stewart, Albert-L\'{a}szl\'{o} Barab\'{a}si, Jay Schulkin,
+  John Phillips, Lydia Ng, Chinh Dang, David~R. Haynor, Allan Jones, David~C.
+  Van~Essen, Christof Koch, and Ed~Lein.
+\newblock Canonical genetic signatures of the adult human brain.
+\newblock {\em Nature Neuroscience}, 18:1832--1844, 2015.
+
+\bibitem{HawrylyczetalNATURE-12}
+Michael~J. Hawrylycz, Ed~S. Lein, Angela~L. Guillozet-Bongaarts, Elaine~H.
+  Shen, Lydia Ng, Jeremy~A. Miller, Louie~N. van~de Lagemaat, Kimberly~A.
+  Smith, Amanda Ebbert, Zackery~L. Riley, Chris Abajian, Christian~F. Beckmann,
+  Amy Bernard, Darren Bertagnolli, Andrew~F. Boe, Preston~M. Cartagena,
+  M.~Mallar Chakravarty, Mike Chapin, Jimmy Chong, Rachel~A. Dalley,
+  Barry~David Daly, Chinh Dang, Suvro Datta, Nick Dee, Tim~A. Dolbeare, Vance
+  Faber, David Feng, David~R. Fowler, Jeff Goldy, Benjamin~W. Gregor, Zeb
+  Haradon, David~R. Haynor, John~G. Hohmann, Steve Horvath, Robert~E. Howard,
+  Andreas Jeromin, Jayson~M. Jochim, Marty Kinnunen, Christopher Lau, Evan~T.
+  Lazarz, Changkyu Lee, Tracy~A. Lemon, Ling Li, Yang Li, John~A. Morris,
+  Caroline~C. Overly, Patrick~D. Parker, Sheana~E. Parry, Melissa Reding,
+  Joshua~J. Royall, Jay Schulkin, Pedro~Adolfo Sequeira, Clifford~R.
+  Slaughterbeck, Simon~C. Smith, Andy~J. Sodt, Susan~M. Sunkin, Beryl~E.
+  Swanson, Marquis~P. Vawter, Derric Williams, Paul Wohnoutka, H.~Ronald
+  Zielke, Daniel~H. Geschwind, Patrick~R. Hof, Stephen~M. Smith, Christof Koch,
+  Seth G.~N. Grant, and Allan~R. Jones.
+\newblock An anatomically comprehensive atlas of the adult human brain
+  transcriptome.
+\newblock {\em Nature}, 489:391--399, 2012.
+
+\bibitem{HazyetalPTRS-07}
+T.~E. Hazy, M.~J. Frank, and R.~C. O'reilly.
+\newblock Towards an executive without a homunculus: computational models of
+  the prefrontal cortex/basal ganglia system.
+\newblock {\em Philosophical Transactions of the Royal Society London B,
+  Biological Science}, 362(1485):1601--1613, 2007.
+
+\bibitem{HengstEMLDM-17}
+Bernhard Hengst.
+\newblock Hierarchical reinforcement learning.
+\newblock In Claude Sammut and Geoffrey~I. Webb, editors, {\em Encyclopedia of
+  Machine Learning and Data Mining}, pages 611--619. Springer US, Boston, MA,
+  2017.
+
+\bibitem{HochreiterandSchmidhuberNC-97}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Computing}, 9:1735--1780, 1997.
+
+\bibitem{Jackson1958selected}
+John~Hughlings Jackson.
+\newblock {\em Selected Writings of John Hughlings Jackson: Evolution and
+  dissolution of the nervous system}.
+\newblock Selected Writings of John Hughlings Jackson. Basic Books, 1958.
+
+\bibitem{JanuszewskietalNATURE-METHODS-18}
+Michal Januszewski, J\"{o}rgen Kornfeld, Peter~H Li, Art Pope, Tim Blakely,
+  Larry Lindsey, Jeremy~B Maitin-Shepard, Mike Tyka, Winfried Denk, and Viren
+  Jain.
+\newblock High-precision automated reconstruction of neurons with flood-filling
+  networks.
+\newblock {\em Nature Methods}, 15:605--610, 2017.
+
+\bibitem{JooandFrankNATURE-REVIEWS-NEUROSCIENCE-18}
+Hannah~R. Joo and Loren~M. Frank.
+\newblock The hippocampal sharp wave-ripple in memory retrieval for immediate
+  use and consolidation.
+\newblock {\em Nature Reviews Neuroscience}, 19:744--757, 2018.
+
+\bibitem{KaelblingICML-93}
+Leslie~Pack Kaelbling.
+\newblock Hierarchical reinforcement learning: A preliminary report.
+\newblock In {\em Proceedings Tenth International Conference on Machine
+  Learning}, pages 167--173, 1993.
+
+\bibitem{KarlssonandFrankNATURE-NEUROSCIENCE-09}
+Mattias~P Karlsson and Loren~M Frank.
+\newblock Awake replay of remote experiences in the hippocampus.
+\newblock {\em Nature neuroscience}, 12(7):913, 2009.
+
+\bibitem{KesnerandRollsNBR-15}
+R.~P. Kesner and E.~T. Rolls.
+\newblock A computational theory of hippocampal function, and tests of the
+  theory: {N}ew developments.
+
+\bibitem{KhatibIJRR-86}
+Oussama Khatib.
+\newblock Real-time obstacle avoidance for manipulators and mobile robots.
+\newblock {\em International Journal of Robotics Research}, 5:90--99, 1986.
+
+\bibitem{KirkpatricketalCoRR-16}
+James Kirkpatrick, Razvan Pascanu, Neil~C. Rabinowitz, Joel Veness, Guillaume
+  Desjardins, Andrei~A. Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka
+  Grabska{-}Barwinska, Demis Hassabis, Claudia Clopath, Dharshan Kumaran, and
+  Raia Hadsell.
+\newblock Overcoming catastrophic forgetting in neural networks.
+\newblock {\em CoRR}, arXiv:1612.00796, 2016.
+
+\bibitem{KitabatakeetalNCNM-07}
+Y.~Kitabatake, K.~A. Sailor, G.~L. Ming, and H.~Song.
+\newblock Adult neurogenesis and hippocampal memory function: new cells, more
+  plasticity, new memories?
+\newblock {\em Neurosurgery Clinics of North America}, 18(1):105--113, 2007.
+
+\bibitem{KoechlinetalSCIENCE-03}
+Etienne Koechlin, Chryst\`{e}le Ody, and Fr\'{e}d\'{e}rique Kouneiher.
+\newblock The architecture of cognitive control in the human prefrontal cortex.
+\newblock {\em Science}, 302:1181--1185, 2003.
+
+\bibitem{KolsteretalJoN-09}
+H.~Kolster, J.~B. Mandeville, J.~T. Arsenault, L.~B. Ekstrom, L.~L. Wald, and
+  W.~Vanduffel.
+\newblock Visual field map clusters in macaque extrastriate visual cortex.
+\newblock {\em Journal Neuroscience}, 29(21):7031--7039, 2009.
+
+\bibitem{KonkleandCaramazzaJoN-13}
+Talia Konkle and Alfonso Caramazza.
+\newblock Tripartite organization of the ventral stream by animacy and object
+  size.
+\newblock {\em Journal of Neuroscience}, 33(25):10235--10242, 2013.
+
+\bibitem{KozioletalCEREBELLUM-14}
+Leonard~F. Koziol, Deborah Budding, Nancy Andreasen, Stefano D'Arrigo, Sara
+  Bulgheroni, Hiroshi Imamizu, Masao Ito, Mario Manto, Cherie Marvel, Krystal
+  Parker, Giovanni Pezzulo, Narender Ramnani, Daria Riva, Jeremy Schmahmann,
+  Larry Vandervert, and Tadashi Yamazaki.
+\newblock Consensus paper: the cerebellum's role in movement and cognition.
+\newblock {\em Cerebellum (London, England)}, 13:151--177, 2014.
+
+\bibitem{KulkarnietalNIPS-16}
+Tejas~D. Kulkarni, Karthik Narasimhan, Ardavan Saeedi, and Josh Tenenbaum.
+\newblock Hierarchical deep reinforcement learning: Integrating temporal
+  abstraction and intrinsic motivation.
+\newblock In {\em Advances in Neural Information Processing Systems 29}, pages
+  3675--3683, 2016.
+
+\bibitem{KumaranetalTiCS-16}
+Dharshan Kumaran, Demis Hassabis, and James~L. McClelland.
+\newblock What learning systems do intelligent agents need? {C}omplementary
+  learning systems theory updated.
+\newblock {\em Trends in Cognitive Sciences}, 20(7):512--534, 2016.
+
+\bibitem{KumaranandMaguireJoN-05}
+Dharshan Kumaran and Eleanor~A. Maguire.
+\newblock The human hippocampus: Cognitive maps or relational memory?
+\newblock {\em Journal of Neuroscience}, 25(31):7254--7259, 2005.
+
+\bibitem{Lettvinetal59}
+J.~Y. Lettvin, H.~R. Maturana, W.~S. McCulloch, and W.~H. Pitts.
+\newblock What the frog's eye tells the frog's brain.
+\newblock {\em Proceedings of the Institute for Radio Engineers},
+  47:1940--1951, 1959.
+
+\bibitem{LewisetalJNC-02}
+David~A. Lewis, Darlene~S. Melchitzky, and Guillermo-Gonzalez Burgos.
+\newblock Specificity in the functional architecture of primate prefrontal
+  cortex.
+\newblock {\em Journal of Neurocytology}, 31(3):265--276, 2002.
+
+\bibitem{LiarokapisetalICAR-15}
+M.~V. {Liarokapis}, A.~M. {Dollar}, and K.~J. {Kyriakopoulos}.
+\newblock Humanlike, task-specific reaching and grasping with redundant arms
+  and low-complexity hands.
+\newblock In {\em International Conference on Advanced Robotics}, pages
+  490--497, 2015.
+
+\bibitem{LinML-92}
+Long-Ji Lin.
+\newblock Self-improving reactive agents based on reinforcement learning,
+  planning and teaching.
+\newblock {\em Machine Learning}, 8(3):293--321, 1992.
+
+\bibitem{LittmanetalUAI-95}
+Michael Littman, Thomas Dean, and Leslie Kaelbling.
+\newblock On the complexity of solving {M}arkov decision problems.
+\newblock In {\em Proceedings of the 11th Conference on Uncertainty in
+  Artificial Intelligence}, pages 394--402, San Francisco, California, 1995.
+  AUAI, Morgan Kaufmann Publishers.
+
+\bibitem{LongetalPNAS-18}
+Bria Long, Chen-Ping Yu, and Talia Konkle.
+\newblock Mid-level visual features underlie the high-level categorical
+  organization of the ventral stream.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(38):E9015--E9024, 2018.
+
+\bibitem{MarrJoP-69}
+David Marr.
+\newblock A theory of cerebellar cortex.
+\newblock {\em Journal of Physiology}, 202:437--470, 1969.
+
+\bibitem{McClellandetalPR-95}
+James~L. McClelland, Bruce~L. McNaughton, and Randall~C. O'Reilly.
+\newblock Why there are complementary learning systems in the hippocampus and
+  neocortex: {I}nsights from the successes and failures of connectionist models
+  of learning and memory.
+\newblock {\em Psychological Review}, 102(3):419--457, 1995.
+
+\bibitem{McCullochandPitts43}
+W.~S. McCulloch and W.~H. Pitts.
+\newblock A logical calculus of ideas immanent in nervous activity.
+\newblock {\em Bulletin of Mathematical Biophysics}, 5:115--133, 1943.
+
+\bibitem{MenegasetalELIFE-17}
+William Menegas, Benedicte~M Babayan, Naoshige Uchida, and Mitsuko
+  Watabe-Uchida.
+\newblock Opposite initialization to novel cues in dopamine signaling in
+  ventral and posterior striatum in mice.
+\newblock {\em Elife}, 6:e21886, 2017.
+
+\bibitem{MikulaandDenkNATURE-METHODS-15}
+Shawn Mikula and Winfried Denk.
+\newblock High-resolution whole-brain staining for electron microscopic circuit
+  reconstruction.
+\newblock {\em Nature Methods}, 2015.
+
+\bibitem{MnihetalCoRR-16}
+Volodymyr Mnih, Adri{\`{a}}~Puigdom{\`{e}}nech Badia, Mehdi Mirza, Alex Graves,
+  Timothy~P. Lillicrap, Tim Harley, David Silver, and Koray Kavukcuoglu.
+\newblock Asynchronous methods for deep reinforcement learning.
+\newblock {\em CoRR}, arXiv:1602.01783, 2016.
+
+\bibitem{MnihetalCoRR-13}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin Riedmiller.
+\newblock Playing {Atari} with deep reinforcement learning.
+\newblock {\em CoRR}, arXiv:1312.5602, 2013.
+
+\bibitem{MoffaertandNoweJMLR-14}
+Kristof~Van Moffaert and Ann Now\'{e}.
+\newblock Multi-objective reinforcement learning using sets of pareto
+  dominating policies.
+\newblock {\em Journal of Machine Learning Research}, 15:3663--3692, 2014.
+
+\bibitem{Mora-BermudezetalELIFE-16}
+Felipe Mora-Berm{\'{u}}dez, Farhath Badsha, Sabina Kanton, J.~Gray Camp,
+  Benjamin Vernot, Kathrin K{\"{o}}hler, Birger Voigt, Keisuke Okita, Tomislav
+  Maricic, Zhisong He, Robert Lachmann, Svante Paabo, Barbara Treutlein, and
+  Wieland~B. Huttner.
+\newblock Differences and similarities between human and chimpanzee neural
+  progenitors during cerebral cortex development.
+\newblock {\em eLife}, 5:e18683, 2016.
+
+\bibitem{NairetalCoRR-15}
+Arun Naira, Praveen Srinivasana, Sam Blackwella, Cagdas Alciceka, Rory Fearona,
+  Alessandro~De Mariaa, Vedavyas Panneershelvama, Mustafa Suleymana, Charles
+  Beattiea, Stig Petersena, Shane Legga, Volodymyr Mniha, Koray Kavukcuoglua,
+  and David Silver.
+\newblock Massively parallel methods for deep reinforcement learning.
+\newblock {\em CoRR}, arXiv:1507.04296, 2015.
+
+\bibitem{NarasimhanetalJAIR-18}
+Karthik Narasimhan, Regina Barzilay, and Tommi Jaakkola.
+\newblock Grounding language for transfer in deep reinforcement learning.
+\newblock {\em Journal of Artificial Intelligence Research}, 63:849--874, 2018.
+
+\bibitem{NeunuebelandKnierimNEURON-14}
+Joshua~P. Neunuebel and James~J. Knierim.
+\newblock {CA3} retrieves coherent representations from degraded input: Direct
+  evidence for {CA3} pattern completion and dentate gyrus pattern separation.
+\newblock {\em Neuron}, 81(2):416--427, 2014.
+
+\bibitem{OishietalNEUROIMAGE-08}
+Kenichi Oishi, Karl Zilles, Katrin Amunts, Andreia Faria, Hangyi Jiang, Xin Li,
+  Kazi Akhter, Kegang Hua, Roger Woods, Arthur~W. Toga, G.~Bruce Pike, Pedro
+  Rosa-Neto, Alan Evans, Jiangyang Zhang, Hao Huang, Michael~I. Miller,
+  Peter~C.M. van Zijl, John Mazziotta, and Susumu Mori.
+\newblock Human brain white matter atlas: Identification and assignment of
+  common anatomical structures in superficial white matter.
+\newblock {\em NeuroImage}, 43(3):447--457, 2008.
+
+\bibitem{OlafsdottirCURRENT-BIOLOGY-18}
+H.~Freyja \'{O}lafsd\'{o}ttir, Daniel Bush, and Caswell Barry.
+\newblock The role of hippocampal replay in memory and planning.
+\newblock {\em Current Biology}, 28(1):R37--R50, 2018.
+
+\bibitem{OReillySCIENCE-06}
+Randall~C. O'Reilly.
+\newblock Biologically based computational models of high-level cognition.
+\newblock {\em Science}, 314:91--94, 2006.
+
+\bibitem{OReillyetalCCN-12}
+Randall~C. O'Reilly, Yuko Munakata, Michael~J. Frank, Thomas~E. Hazy, and
+  Contributors.
+\newblock {\em Computational Cognitive Neuroscience}.
+\newblock Wiki Book, 1st Edition, 2012.
+
+\bibitem{PascanuetalCoRR-17}
+Razvan Pascanu, Yujia Li, Oriol Vinyals, Nicolas Heess, Lars Buesing,
+  S{\'{e}}bastien Racani{\`{e}}re, David~P. Reichert, Theophane Weber, Daan
+  Wierstra, and Peter Battaglia.
+\newblock Learning model-based planning from scratch.
+\newblock {\em CoRR}, arXiv:1707.06170, 2017.
+
+\bibitem{PashevichetalCoRR-18}
+Alexander Pashevich, Danijar Hafner, James Davidson, Rahul Sukthankar, and
+  Cordelia Schmid.
+\newblock Modulated policy hierarchies.
+\newblock {\em CoRR}, arXiv:1812.00025, 2018.
+
+\bibitem{PortuguesetalNEURON-14}
+Ruben Portugues, Claudia~E. Feierstein, Florian Engert, and Michael~B. Orger.
+\newblock Whole-brain activity maps reveal stereotyped, distributed networks
+  for visuomotor behavior.
+\newblock {\em Neuron}, 81:1328--1343, 2014.
+
+\bibitem{LampinenetalCoRR-19}
+Sebastien Racaniere, Andrew~K. Lampinen, Adam Santoro, David~P. Reichert, Vlad
+  Firoiu, and Timothy~P. Lillicrap.
+\newblock Automated curricula through setter-solver interactions.
+\newblock {\em CoRR}, arXiv:1909.12892, 2019.
+
+\bibitem{RasmussenetalPLoS-ONE-17}
+Daniel Rasmussen, Aaron Voelker, and Chris Eliasmith.
+\newblock A neural model of hierarchical reinforcement learning.
+\newblock {\em PLOS ONE}, 12(7):1--39, 2017.
+
+\bibitem{RibasFernandesNEURON-11}
+J.~J. Ribas-Fernandes, A.~Solway, C.~Diuk, J.~T. McGuire, A.~G. Barto, Y.~Niv,
+  and M.~M. Botvinick.
+\newblock A neural signature of hierarchical reinforcement learning.
+\newblock {\em Neuron}, 71(2):370--379, 2011.
+
+\bibitem{RobinsCONNECTION-SCIENCE-95}
+Anthony Robins.
+\newblock Catastrophic forgetting, rehearsal and pseudorehearsal.
+\newblock {\em Connection Science}, 7(2):123--146, 1995.
+
+\bibitem{RueckemannandBuffaloNATURE-2017}
+Jon~W. Rueckemann and Elizabeth~A. Buffalo.
+\newblock Auditory landscape on the cognitive map.
+\newblock {\em Nature}, 543:631, 2017.
+
+\bibitem{SahnietalCoRR-17}
+Himanshu Sahni, Saurabh Kumar, Farhan Tejani, and Charles~L. Isbell.
+\newblock Learning to compose skills.
+\newblock {\em CoRR}, arXiv:1711.11289, 2017.
+
+\bibitem{SchapiroetalNATURE-COMMUNICATIONS-18}
+Anna~C Schapiro, Elizabeth~A McDevitt, Timothy~T Rogers, Sara~C Mednick, and
+  Kenneth~A Norman.
+\newblock Human hippocampal replay during rest prioritizes weakly learned
+  information and predicts memory performance.
+\newblock {\em Nature communications}, 9(1):3920, 2018.
+
+\bibitem{SchauletalCoRR-15}
+Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver.
+\newblock Prioritized experience replay.
+\newblock {\em CoRR}, arXiv:1511.05952, 2015.
+
+\bibitem{SchlichtingandPrestonCOiBS}
+M.~L. Schlichting and A.~R. Preston.
+\newblock Memory integration: neural mechanisms and implications for behavior.
+\newblock {\em Current Opinion in Behavioral Science}, 1:1--8, 2015.
+
+\bibitem{Schmidt-HieberetalNATURE-04}
+C.~Schmidt-Hieber, P.~Jonas, and J.~Bischofberger.
+\newblock Enhanced synaptic plasticity in newly generated granule cells of the
+  adult hippocampus.
+\newblock {\em Nature}, 429(6988):184--187, 2004.
+
+\bibitem{SchuckandNivDOI-18}
+NW~Schuck and Y~Niv.
+\newblock Sequential replay of non-spatial task states in the human
+  hippocampus. biorxiv.
+\newblock {\em DOI}, 10:315978, 2018.
+
+\bibitem{SeldinetalICSS-01}
+Yevgeny Seldin, Gill Bejerano, and Naftali Tishby.
+\newblock Unsupervised segmentation and classification of mixtures of
+  {M}arkovian sources.
+\newblock In {\em Proceedings of the 33rd Symposium on the Interface of
+  Computing Science and Statistics}, 2001.
+
+\bibitem{SeldinetalICML-01}
+Yevgeny Seldin, Gill Bejerano, and Naftali Tishby.
+\newblock Unsupervised sequence segmentation by a mixture of switching variable
+  memory {M}arkov sources.
+\newblock In {\em Proceedings of the Eighteenth International Conference on
+  Machine Learning (ICML 2001)}, pages 513--520, 2001.
+
+\bibitem{SpaldingetalCELL-13}
+Kirsty~L. Spalding, Olaf Bergmann, Kanar Alkass, Samuel Bernard, Mehran
+  Salehpour, Hagen~B. Huttner, Emil Bostr\"{o}m, Isabelle Westerlund, Celine
+  Vial, Bruce~A. Buchholz, G\"{o}ran Possnert, Deborah~C. Mash, Henrik Druid,
+  and Jonas Fris\'{e}n.
+\newblock Dynamics of hippocampal neurogenesis in adult humans.
+\newblock {\em Cell}, 153:1219--1227, 2013.
+
+\bibitem{StachenfeldetalNATURE-17}
+Kimberly~L. Stachenfeld, Matthew~M. Botvinick, and Samuel~J. Gershman.
+\newblock The hippocampus as a predictive map.
+\newblock {\em Nature Neuroscience}, 20:1643, 2017.
+
+\bibitem{SwansonTiN-95}
+Larry~W. Swanson.
+\newblock Mapping the human brain: past, present, and future.
+\newblock {\em Trends in Neurosciences}, 18(11):471--474, 1995.
+
+\bibitem{TravisetalHBM-15}
+Travis, Katherine E., Yael Leitner, Heidi~M. Feldman, and Michal Ben-Shachar.
+\newblock Cerebellar white matter pathways are associated with reading skills
+  in children and adolescents.
+\newblock {\em Human Brain Mapping}, 36(4):1536--1553, 2015.
+
+\bibitem{vonUexk1926theoretical}
+J.~von Uexk\"{u}ll and D.L. Mackinnon.
+\newblock {\em Theoretical Biology}.
+\newblock {International Library of Psychology, Philosophy and Scientific
+  Method}. K. Paul, Trench, Trubner \& Company Limited, 1926.
+
+\bibitem{VyletaetalELIFE-16}
+Nicholas~P Vyleta, Carolina Borges-Merjane, and Peter Jonas.
+\newblock Plasticity-dependent, full detonation at hippocampal mossy
+  fiber–{CA3} pyramidal neuron synapses.
+\newblock {\em eLife}, 5:e17977, 2016.
+
+\bibitem{WakanaetalRADIOLOGY-04}
+S.~Wakana, H.~Jiang, L.~M. Nagae-Poetscher, P.~C. van Zijl, and S.~Mori.
+\newblock Fiber tract-based atlas of human white matter anatomy.
+\newblock {\em Radiology}, 230(1):77--87, 2004.
+
+\bibitem{WandelletalPTRS-B-05}
+Brian~A. Wandell, Alyssa~A. Brewer, and Robert~F. Dougherty.
+\newblock Visual field map clusters in human cortex.
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 360:693--707, 2005.
+
+\bibitem{WandelletalNEURON-07}
+Brian~A. Wandell, Serge~O. Dumoulin, and Alyssa~A. Brewer.
+\newblock Visual field maps in human cortex.
+\newblock {\em Neuron}, 56:366--383, 2007.
+
+\bibitem{WangandWangFiP-19}
+Wei Wang and Guang-Zhong Wang.
+\newblock Understanding molecular mechanisms of the brain through
+  transcriptomics.
+\newblock {\em Frontiers in physiology}, 10:214--214, 2019.
+
+\bibitem{WillemetBRAIN-SCIENCE-12}
+Romain Willemet.
+\newblock Understanding the evolution of mammalian brain structures; the need
+  for a (new) cerebrotype approach.
+\newblock {\em Brain sciences}, 2:203--224, 2012.
+
+\bibitem{WilsonandMcNaughtonSCIENCE-94}
+M.~A. Wilson and B.L. McNaughton.
+\newblock Reactivation of hippocampal ensemble memories during sleep.
+\newblock {\em Science}, 265(5172):676--679, 1994.
+
+\bibitem{WiskottetalHIPPOCAMPUS-06}
+L.~Wiskott, M.~J. Rasch, and G.~Kempermann.
+\newblock A functional hypothesis for adult hippocampal neurogenesis: avoidance
+  of catastrophic interference in the dentate gyrus.
+\newblock {\em Hippocampus}, 16(3):329--343, 2006.
+
+\bibitem{Higher_Cortical_Functions_Association}
+Anthony Wright.
+\newblock Higher cortical functions: Association and executive processing.
+\newblock In {\em Neuroscience Online: An electronic textbook for the
+  neurosciences}. The University of Texas McGovern Medical School, 1997.
+
+\bibitem{YizharetalNEURON-11}
+O.~Yizhar, L.E. Fenno, T.J. Davidson, M.~Mogri, and K.~Deisseroth.
+\newblock Optogenetics in neural systems.
+\newblock {\em Neuron}, 71:9--34, 2011.
+
+\bibitem{ZhangetalNATURE-10}
+F.~Zhang, V.~Gradinaru, A.R. Adamantidis, R.~Durand, R.D. Airan, L.~de~Lecea,
+  and K.~Deisseroth.
+\newblock Optogenetic interrogation of neural circuits: technology for probing
+  mammalian brain structures.
+\newblock {\em Nature Protocols}, 5:439--56, 2010.
+
+\bibitem{ZhengetalCELL-18}
+Zhihao Zheng, J.~Scott Lauritzen, Eric Perlman, Camenzind~G. Robinson, Matthew
+  Nichols, Daniel Milkie, Omar Torrens, John Price, Corey~B. Fisher, Nadiya
+  Sharifi, Steven~A. Calle-Schuler, Lucia Kmecova, Iqbal~J. Ali, Bill Karsh,
+  Eric~T. Trautman, John Bogovic, Philipp Hanslovsky, Gregory S. X.~E.
+  Jefferis, Michael Kazhdan, Khaled Khairy, Stephan Saalfeld, Richard~D.
+  Fetter, and Davi~D. Bock.
+\newblock A complete electron microscopy volume of the brain of adult
+  drosophila melanogaster.
+\newblock {\em Cell}, 174:1--14, 2018.
+
+\end{thebibliography}

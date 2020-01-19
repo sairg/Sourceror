@@ -1,38 +1,46 @@
 %%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-convert ./pngures/Human_Brain_Atlas_Allen_Institute.png       ./figures/Human_Brain_Atlas_Allen_Institute.jpg     
-convert ./pngures/White_Matter_Tracts_Long_Distance.png       ./figures/White_Matter_Tracts_Long_Distance.jpg     
-convert ./pngures/Brodmann_Basal_Ganglia_Hippocampus.png      ./figures/Brodmann_Basal_Ganglia_Hippocampus.jpg    
-convert ./pngures/Hippocampus_Inspired_Learning_Redux.png     ./figures/Hippocampus_Inspired_Learning_Redux.jpg   
-convert ./pngures/Basal_Ganglia_Anatomy_and_Physiology.png    ./figures/Basal_Ganglia_Anatomy_and_Physiology.jpg  
-convert ./pngures/Global_Workspace_Conscious_Attention.png    ./figures/Global_Workspace_Conscious_Attention.jpg  
-convert ./pngures/Global_Workspace_Episodic_Memory.png        ./figures/Global_Workspace_Episodic_Memory.jpg      
-convert ./pngures/Posterior_Cortex_Semantic_Cloud_Memory.png  ./figures/Posterior_Cortex_Semantic_Cloud_Memory.jpg
-convert ./pngures/Differentiable_Program_Emulation.png        ./figures/Differentiable_Program_Emulation.jpg      
-convert ./pngures/Prefrontal_Hierarchy_Biology_Graze.png      ./figures/Prefrontal_Hierarchy_Biology_Graze.jpg    
-convert ./pngures/Hippocampus_Anatomy_and_Physiology.png      ./figures/Hippocampus_Anatomy_and_Physiology.jpg    
-convert ./pngures/Hippocampus_Auto_Associative_Network.png    ./figures/Hippocampus_Auto_Associative_Network.jpg  
-convert ./pngures/Differentiable_Structured_Programs.png      ./figures/Differentiable_Structured_Programs.jpg    
-convert ./pngures/Graph_Nets_Imagination_Coding.png           ./figures/Graph_Nets_Imagination_Coding.jpg         
-convert ./pngures/Coupled_Sensory_Motor_Hierarchy.png         ./figures/Coupled_Sensory_Motor_Hierarchy.jpg       
+/Users/tld/Drive/code/github/Sourceror/special % date
+Wed Jan  1 09:48:22 PST 2020
+/Users/tld/Drive/code/github/Sourceror/special % wc -w counts/*/1.tex
+     421 counts/A/1.tex
+     669 counts/B/1.tex
+     533 counts/C/1.tex
+    1623 total
+/Users/tld/Drive/code/github/Sourceror/special % pdf2txt paper.pdf /tmp/paper.txt ; wc -w /tmp/paper.txt ; rm -f /tmp/paper.txt
+    9971 /tmp/paper.txt
+/Users/tld/Drive/code/github/Sourceror/special % cat counts/*/1.tex > MOTOR_PROGRAMS.tex 
+/Users/tld/Drive/code/github/Sourceror/special % wc -w MOTOR_PROGRAMS.tex 
+    1625 MOTOR_PROGRAMS.tex
+/Users/tld/Drive/code/github/Sourceror/special % cat MOTOR_PROGRAMS.tex >> paper.tex ; rm paper.pdf ; pdflatex paper.tex
+/Users/tld/Drive/code/github/Sourceror/special % pdf2txt paper.pd    \includegraphics[height=200pt]{./figures/Human_Brain_Neocortex_Function.jpg}
 
 %%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-convert ./figures/Human_Brain_Atlas_Allen_Institute.png       ./special/figures/Human_Brain_Atlas_Allen_Institute.jpg     
-convert ./figures/White_Matter_Tracts_Long_Distance.png       ./special/figures/White_Matter_Tracts_Long_Distance.jpg     
-convert ./figures/Brodmann_Basal_Ganglia_Hippocampus.png      ./special/figures/Brodmann_Basal_Ganglia_Hippocampus.jpg    
-convert ./figures/Hippocampus_Inspired_Learning_Redux.png     ./special/figures/Hippocampus_Inspired_Learning_Redux.jpg   
-convert ./figures/Basal_Ganglia_Anatomy_and_Physiology.png    ./special/figures/Basal_Ganglia_Anatomy_and_Physiology.jpg  
-convert ./figures/Global_Workspace_Conscious_Attention.png    ./special/figures/Global_Workspace_Conscious_Attention.jpg  
-convert ./figures/Global_Workspace_Episodic_Memory.png        ./special/figures/Global_Workspace_Episodic_Memory.jpg      
-convert ./figures/Posterior_Cortex_Semantic_Cloud_Memory.png  ./special/figures/Posterior_Cortex_Semantic_Cloud_Memory.jpg
-convert ./figures/Differentiable_Program_Emulation.png        ./special/figures/Differentiable_Program_Emulation.jpg      
-convert ./figures/Prefrontal_Hierarchy_Biology_Graze.png      ./special/figures/Prefrontal_Hierarchy_Biology_Graze.jpg    
-convert ./figures/Hippocampus_Anatomy_and_Physiology.png      ./special/figures/Hippocampus_Anatomy_and_Physiology.jpg    
-convert ./figures/Hippocampus_Auto_Associative_Network.png    ./special/figures/Hippocampus_Auto_Associative_Network.jpg  
-convert ./figures/Differentiable_Structured_Programs.png      ./special/figures/Differentiable_Structured_Programs.jpg    
-convert ./figures/Graph_Nets_Imagination_Coding.png           ./special/figures/Graph_Nets_Imagination_Coding.jpg         
-convert ./figures/Coupled_Sensory_Motor_Hierarchy.png         ./special/figures/Coupled_Sensory_Motor_Hierarchy.jpg       
+cd /u/tld/Drive/code/github/Sourceror/special/
+convert ./figures/PNG/Human_Brain_Atlas_Allen_Institute.png          ./figures/Human_Brain_Atlas_Allen_Institute.jpg        	
+convert ./figures/PNG/Human_Brain_Neocortex_Function.png	     ./figures/Human_Brain_Neocortex_Function.jpg	
+convert ./figures/PNG/White_Matter_Tracts_Long_Distance.png	     ./figures/White_Matter_Tracts_Long_Distance.jpg		
+convert ./figures/PNG/Brodmann_Basal_Ganglia_Hippocampus.png	     ./figures/Brodmann_Basal_Ganglia_Hippocampus.jpg	
+convert ./figures/PNG/Coupled_Sensory_Motor_Hierarchy.png	     ./figures/Coupled_Sensory_Motor_Hierarchy.jpg		
+convert ./figures/PNG/Posterior_Cortex_Semantic_Cloud_Memory.png     ./figures/Posterior_Cortex_Semantic_Cloud_Memory.jpg	
+convert ./figures/PNG/Global_Workspace_Conscious_Attention.png	     ./figures/Global_Workspace_Conscious_Attention.jpg	
+convert ./figures/PNG/Global_Workspace_Episodic_Memory.png	     ./figures/Global_Workspace_Episodic_Memory.jpg		
+convert ./figures/PNG/Hippocampus_Inspired_Learning_Redux.png	     ./figures/Hippocampus_Inspired_Learning_Redux.jpg	
+convert ./figures/PNG/Prefrontal_Hierarchy_Biology_Graze.png	     ./figures/Prefrontal_Hierarchy_Biology_Graze.jpg	
+convert ./figures/PNG/Columns_Stripes_Clusters_Topographic_Maps.png  ./figures/Columns_Stripes_Clusters_Topographic_Maps.jpg
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+/Users/tld/Drive/code/github/Sourceror/special % git add counts
+/Users/tld/Drive/code/github/Sourceror/special % git commit -m "LaTeX for the final sections of the reduced / wordcount reconciled draft."
+
+%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+cp /u/tld/Drive/write/notes/quick/bin/pdftotext /u/tld/bin/pdf2txt
+chmod +x /u/tld/bin/pdf2txt
+alias pflexit 'pdf2txt paper.pdf /tmp/paper.txt ; wc -w /tmp/paper.txt ; rm -f /tmp/paper.txt'
+alias rflexit 'pdf2txt index.pdf /tmp/index.txt ; wc -w /tmp/index.txt ; rm -f /tmp/index.txt'
 
 %%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
